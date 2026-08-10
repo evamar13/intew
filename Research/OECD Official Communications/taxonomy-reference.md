@@ -61,16 +61,12 @@ This includes:
 
 ### Publications
 
-Use [Publications](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/OECD%20Official%20Communications/Publications) for OECD publication formats, publication inventories, and publication-support material.
+Use [Publications](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/OECD%20Official%20Communications/Publications) only for OECD publication inventories and publication-format taxonomies.
 
 This includes:
 
 - `Reports and research papers`
 - `Policy papers and briefs`
-- `Featured`
-- `Forthcoming`
-- `Support`
-- `Publications Dissemination`
 
 ### Reputation and Risk Communication
 
@@ -88,10 +84,23 @@ Use [Policy Ecosystem](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/
 
 This includes:
 
+- `Networks and Fora`
 - `Policy Citations`
 - `Policy Footprint in Member Countries`
 - `Policy Uptake`
 - `Stakeholder and Parliamentary Engagement`
+
+Within `Networks and Fora`, the schema is further organised by type:
+
+- `Networks`
+- `Forums`
+- `Communities of Practice`
+- `Initiatives and Programmes`
+- `Dialogues, Meetings and Open Days`
+- `Platforms, Hubs and Observatories`
+- `Roundtables`
+- `Working Parties, Task Teams and Committees`
+- `Advisory and Stakeholder Bodies`
 
 ## How To Use The Structure
 
@@ -109,8 +118,10 @@ Examples:
 
 - `Academic Ecosystem` appears as an audience concept and also connects to analytical work such as `Academic Footprint`.
 - `Policy Ecosystem` appears as an influence domain, while `Policy Footprint` sits under analytics because it is measured.
+- `Networks and Fora` sit under `Policy Ecosystem` because they are institutional dialogue and influence spaces, not distribution channels.
 - `OECD in the News` is kept under `Media` as a media product, while similar items may also appear under channel-related measurement logic.
 - `Bot Traffic` is not treated as a channel in the root taxonomy; it is treated as an analytical signal.
+- `Reputation and Risk Communication` is kept separate from `Analytics and Intelligence` because it covers governance, trust, and response functions, not only measurement.
 
 ## Interpretation Rule
 
