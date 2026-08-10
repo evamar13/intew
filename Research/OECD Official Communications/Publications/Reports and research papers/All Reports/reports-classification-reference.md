@@ -1,0 +1,1635 @@
+# OECD Reports Classification Reference
+
+## Purpose
+
+This markdown file is kept alongside the folder structure in `All Reports`.
+
+The folder structure is the main classification output. Each top-level folder contains empty subfolders named after the visible OECD report classifications gathered from the screenshots and provided exports.
+
+## Folder-Based Structure
+
+### Languages
+
+- Total folders: `51`
+- Path: `Languages/`
+
+- Albanian
+- Arabic
+- Armenian
+- Azerbaijani
+- Bengali
+- Bosnian
+- Bulgarian
+- Burmese
+- Chinese
+- Croatian
+- Czech
+- Danish
+- Dutch
+- English
+- Estonian
+- Finnish
+- French
+- Georgian
+- German
+- Greek
+- Hebrew
+- Hungarian
+- Icelandic
+- Indonesian
+- Italian
+- Japanese
+- Khmer
+- Korean
+- Latvian
+- Lithuanian
+- Macedonian
+- Malay
+- Mongolian
+- Norwegian
+- Pashto
+- Persian
+- Polish
+- Portuguese
+- Romanian
+- Russian
+- Serbian
+- Sinhala
+- Slovak
+- Slovenian
+- Spanish
+- Swedish
+- Tamil
+- Thai
+- Turkish
+- Ukrainian
+- Vietnamese
+
+### Publication Types
+
+- Total folders: `2`
+- Path: `Publication Types/`
+
+- Report
+- Working paper
+
+### Publication Date
+
+- Total folders: `1`
+- Path: `Publication Date/`
+- Current visible range captured in folders: `1955-2026`
+
+- 1955-2026
+
+### Policy Areas
+
+- Total folders: `20`
+- Path: `Policy Areas/`
+
+- Agriculture and fisheries
+- Climate change
+- Development
+- Digital
+- Economy
+- Education and skills
+- Employment
+- Energy
+- Environment
+- Finance and investment
+- Governance
+- Health
+- Industry, business and entrepreneurship
+- Nuclear energy
+- Regional, rural and urban development
+- Science, technology and innovation
+- Society
+- Taxation
+- Trade
+- Transport
+
+### Policy Issues
+
+- Total folders: `130`
+- Path: `Policy Issues/`
+
+- Adult skills and work
+- Ageing
+- Agricultural policy monitoring
+- Agricultural productivity and innovation
+- Agricultural trade and markets
+- Agriculture and sustainability
+- Anti-corruption and integrity
+- Artificial Intelligence
+- Base erosion and profit shifting `(BEPS)`
+- Biodiversity, water and ecosystems
+- Biotechnology
+- Chemical safety and biosafety
+- Chronic diseases
+- Climate adaptation and resilience
+- Climate mitigation and net-zero transition
+- Communication infrastructure and services
+- Competition
+- Consumer policy
+- Consumption taxes
+- Corporate governance
+- Critical Minerals
+- Cross-border and international tax
+- Data flows and governance
+- Development co-operation
+- Digital government
+- Digital health
+- Digital security
+- Digital trade
+- Digital transformation
+- Economic policy
+- Economic surveillance
+- Economy and society
+- Education access, participation and progression
+- Education economic and social outcomes
+- Education equity
+- Education evaluation and quality assurance
+- Education financing
+- Education leadership
+- Education organisation and governance
+- Employability
+- Employment services
+- Environment, society and economy
+- Environmental policies and evaluation
+- Export credits
+- Finance and investment for climate goals
+- Finance and investment for environmental goals
+- Finance for sustainable development
+- Financial consumer protection, education and inclusion
+- Financial markets
+- Fisheries and aquaculture
+- Food systems
+- Future of education and skills
+- Future of work
+- Gender equality
+- Global and regional development trends
+- Global co-operation on climate
+- Global trade and open markets
+- Global value and supply chains
+- Governance and peace for development
+- Government innovation
+- Green technology and innovation
+- Greening countries, regions and cities
+- Health and work
+- Health inequality and universal health coverage
+- Health spending and financial sustainability
+- Healthcare quality and outcomes
+- Housing
+- Human development and social inclusion
+- Illicit trade
+- Improving public health
+- Inclusion and equality
+- Inclusive trade
+- Industrial policy
+- Industry sector analysis
+- Infrastructure
+- Innovation and R&D policy
+- Investment
+- Job quality
+- Labour markets surveillance
+- Learning environment
+- Local employment and economic development
+- Migration
+- Multi-level governance
+- OECD standards for agriculture
+- Official Development Assistance `(ODA)`
+- Online safety and well-being
+- Pensions and insurance
+- Pharmaceuticals and medical technologies
+- Pollution
+- Privacy and data protection
+- Productivity and long-term growth
+- Public employment and management
+- Public finance and budgets
+- Public policymaking
+- Public procurement
+- Regional development
+- Regulatory reform
+- Resource efficiency and circular economy
+- Responsible business conduct
+- Rural development
+- Science policy
+- Science, technology and innovation for societal challenges
+- Science, technology and innovation performance
+- Services trade
+- SMEs and entrepreneurship
+- Social policy
+- Space economy
+- Student performance `(PISA)`
+- Subnational finance and investment
+- Subsidies and government support
+- Sustainable Development Goals `(SDGs)`
+- Sustainable economic growth
+- Sustainable, green and inclusive business
+- Tax administration
+- Tax and crime
+- Tax and development
+- Tax and the environment
+- Tax policy
+- Tax transparency and international co-operation
+- Tax treaties
+- Teachers and educators
+- Technology policy
+- The future of health systems
+- Tourism
+- Trade and sustainability
+- Trust and democracy
+- Urban development and cities
+- Urbanisation, infrastructure and development
+- Well-being and beyond GDP
+- Youth
+
+### Policy Sub-Issues
+
+- Total folders: `450`
+- Path: `Policy Sub-Issues/`
+
+- Access to justice
+- Administrative simplification
+- Adult learning
+- Adult literacy skills
+- Adult numeracy skills
+- Adult problem solving skills
+- Affordable housing
+- African development strategies
+- Ageing and employment
+- Ageing and long-term care
+- Agriculture and environment
+- Agro-food trade
+- AI and work
+- AI compute
+- AI principles
+- AI risks and incidents
+- Aid for trade
+- Air pollution
+- Anticipatory Governance
+- Antimicrobial resistance
+- Artificial intelligence and education and skills
+- Asian development strategies
+- Assessing the alignment of finance with climate goals
+- Assessment of chemicals
+- Asset-backed pensions
+- Behavioural science
+- BEPS Multilateral Instrument
+- Better regulation and innovation
+- Biodiversity
+- Biosafety, novel food and feed safety
+- Broadband country monitoring and evaluation
+- Broadband statistics
+- Business integrity
+- Cancer
+- Capacity building and co-operation in tax and crime
+- Capital flows and investment standards
+- Capital markets
+- Carbon mitigation
+- Carbon pricing and energy taxes
+- Cardiovascular diseases (CVD)
+- Career guidance
+- Caribbean development strategies
+- Changing skill needs in the labour market
+- Chemical accident prevention, preparedness and response
+- Child and family well-being
+- Child sexual exploitation and abuse
+- Children in the digital environment
+- Circular economy in cities and regions
+- Circular economy policies and country studies
+- Cities, climate and development
+- Citizen science and engagement
+- Class size and student-teacher ratios
+- Climate and resilience in cities
+- Climate change and health
+- Climate change, agriculture and food systems
+- Climate change, demography and migration
+- Climate Finance and the USD 100 billion goal
+- Climate risks and disasters
+- Collective bargaining and social dialogue
+- Communication infrastructure services
+- Comparative analysis of tax administrations
+- Competition and digital economy
+- Competition and international co-operation
+- Competition and market dynamism
+- Competition enforcement
+- Competitive and fair markets
+- Competitiveness and global engagement
+- Conflict and fragility
+- Conflict of interest
+- Consumer behavioural insights
+- Consumer policy and digital technologies
+- Consumption tax trends
+- Convention on Mutual Administrative Assistance in Tax Matters
+- Corporate governance of state-owned enterprises
+- Corporate Sustainability
+- Corporate taxation
+- Counterfeit and pirated goods
+- Country tax policy reviews and advice
+- Country-by-country reporting for tax purposes
+- Creative thinking
+- Cross-border data flows
+- Culture, creative industries and sports
+- Curriculum and instruction time
+- Cyber security skills
+- Data governance
+- Debt management
+- Decarbonising industry
+- Decentralisation
+- Demographic change in regions
+- Development co-operation evaluation and effectiveness
+- Development co-operation in practice
+- Development co-operation peer reviews and learning
+- Development co-operation principles and standards
+- Development co-operation profiles
+- Development finance for climate and the environment
+- Digital and agriculture trade
+- Digital and Innovative Public Services
+- Digital divide in education
+- Digital divides
+- Digital education
+- Digital finance
+- Digital health systems
+- Digital security risk management
+- Digital skills
+- Digital trade (Digital transformation)
+- Digital transformation of tax administration
+- Digitalisation and the environment
+- Digitalisation of SMEs
+- Disinformation and misinformation
+- Dispute resolution in cross-border taxation
+- Due diligence guidance for responsible business conduct
+- Early childhood education and care
+- Earnings by educational attainment
+- Economic and environmental outcomes of innovation
+- Economic and social integration of migrants
+- Economic impact of migration
+- Economic Outlook
+- Economic policies to foster green growth
+- Economic resilience
+- Economic surveys
+- Education attainment
+- Education infrastructure
+- Education leader employment
+- Education leader learning and development
+- Education leader practices
+- Education leader working conditions
+- Education research
+- Education system evaluation
+- Effective institutions for development
+- Emerging technologies
+- Employment protection and minimum wages
+- Enabling climate adaptation
+- Ensuring environmental compliance
+- Environment-economy modelling and outlooks
+- Environmental and social due diligence
+- Environmental cost-benefit analysis and valuation
+- Environmental country reviews
+- Environmental legal instruments
+- Environmental statistics, accounts and indicators
+- Environmental transition in regions
+- Environmentally harmful subsidies
+- Environmentally related taxes
+- Export credit trends and statistics
+- Export restrictions on critical raw materials
+- Extended producer responsibility and economic instruments
+- Fighting foreign bribery
+- Finance and investment for biodiversity
+- Finance and investment for clean energy and industry
+- Finance and investment for climate adaptation
+- Finance and investment for greening SMEs
+- Finance and investment for water
+- Financial consumer protection
+- Financial education
+- Financial Management and Reporting
+- Financing infrastructure
+- Financing the low carbon transition
+- Fiscal federalism network
+- Fiscal policy
+- Fisheries subsidies
+- Fisheries sustainability
+- Food systems, food security and nutrition
+- Foreign Direct Investment Qualities and Impact
+- Foreign language learning
+- Forest seed and plant
+- Fossil fuel support
+- Free trade zones
+- Fruits and vegetables
+- Future of connectivity
+- Future of food and farming
+- Future of social protection
+- Gender and development
+- Gender budgeting
+- Gender discrimination in social norms
+- Gender equality and digital transformation
+- Gender equality and environment
+- Gender equality and global engagement
+- Gender equality and work
+- Gender equality in education
+- Gender mainstreaming in policy making
+- Gender-based violence
+- Generative AI
+- Global competence
+- Global engagement on responsible business conduct
+- Global Minimum Tax
+- Global tax revenues
+- Global value chains and agriculture
+- Governance of mission oriented policies
+- Governance of the Digital Transformation
+- Governing with AI
+- Government communication
+- Government Data
+- Green budgeting
+- Green finance policies, institutions, tools and governance
+- Green growth
+- Green industrial policies
+- Greening Eastern Europe and Central Asia
+- Greening household and firm behaviour
+- Greening infrastructure and transport
+- Greening Latin America
+- Greening SMEs
+- Greening Southeast Asia and China
+- Harmful alcohol consumption
+- Harmful tax practices
+- Health budgeting
+- Health inequalities
+- Health system performance
+- Health system resilience
+- Health workforce
+- Higher education
+- Human capital and educational policies
+- Inclusion and equality in regions
+- Inclusion, equality and development
+- Inclusive entrepreneurship
+- Inclusive growth and well-being
+- Inclusive growth in cities
+- Inclusive, green and digital transformation
+- Inclusivity in food systems
+- Income support, redistribution and work incentives
+- Indigenous communities
+- Industrial subsidies
+- Industrial transitions in regions
+- Inflation and cost of living
+- Infrastructure and development
+- Infrastructure governance
+- Innovation and digital in agriculture
+- Innovation and green transitions
+- Innovation in development co-operation
+- Innovations in education and skills
+- Innovative capacity of governments
+- Instructional and administrative leadership
+- Insurance
+- Integrity in public procurement
+- Internal control and audit in the public sector
+- International collaboration in science
+- International migration trends
+- International regulatory co-operation
+- International standards on tax transparency
+- International student mobility
+- International tax compliance policies and best practices
+- Investment and national security
+- Investment for trade and economic development
+- Investment incentives, promotion and facilitation
+- Labour market effects of greening the economy
+- Land use, housing and spatial planning
+- Latin American development strategies
+- Learning in the digital world
+- Learning in the home
+- Learning time and disciplinary climate
+- LGBTIQ+ inclusion
+- Lobbying
+- Local development
+- Local employment and skills
+- Market outlooks for agriculture
+- Material resources
+- Mathematics literacy
+- Measuring business and industry
+- Measuring business impacts on people’s well-being and sustainability
+- Measuring digital trade
+- Measuring distance to SDGs
+- Measuring Foreign Direct Investment
+- Measuring health care quality
+- Measuring international trade
+- Measuring productivity
+- Measuring regulatory performance
+- Measuring the labour market
+- Measuring well-being and progress
+- Mental health
+- Mental health and work
+- Metrics for green innovation
+- Migration and development
+- Migration policies, returns and attracting talent
+- Migration: Regional and local development
+- Mining regions and cities
+- Mission-oriented innovation
+- Mobilising private finance for development
+- Monetary policy
+- Monitoring and preventing industrial pollution
+- Monitoring international trade
+- Multilateral development finance
+- Nanomaterials and advanced materials
+- Natural resources and development
+- Nature-based solutions and climate-resilient infrastructure
+- New technologies and trade
+- Obesity, diet and physical activity
+- Ocean
+- ODA provider country profiles
+- ODA standards
+- ODA trends and statistics
+- OECD model tax convention on income and on capital
+- Open government and citizen participation
+- Opportunities and benefits of digital trade
+- Parliamentary Budget Offices and Independent Fiscal Institutions
+- Partnerships for science and innovation
+- Patient safety
+- People-centred health systems and integrated care
+- Performance budgeting
+- Personal and property taxes
+- Pesticides and biocides
+- Philanthropy
+- Plastics
+- Policy coherence for sustainable development
+- Post-education labour market outcomes
+- Poverty reduction
+- Preventing tax treaty abuse
+- Primary healthcare
+- Privacy principles
+- Privacy-enhancing technologies
+- Product market regulation
+- Product safety
+- Productivity and business dynamism
+- Productivity and innovation in regions
+- Public accounts
+- Public and private stakeholder funding for education
+- Public engagement for the SDGs
+- Public finance
+- Public governance and administration modernisation
+- Public integrity
+- Public investment and infrastructure
+- Public pensions
+- Public policies for responsible business conduct
+- Public policy monitoring and evaluation
+- Public private partnerships
+- Public procurement competency
+- Public procurement evaluation
+- Public returns from education
+- Public sector workforce
+- Public support to R&amp;D and innovation
+- Quantifying industrial strategies
+- Quantum technologies
+- R&amp;D tax incentives
+- Reading literacy
+- Reallocation of taxing rights to market jurisdictions
+- Regions in globalisation
+- Regions, cities and local statistics
+- Regulatory environment for digital trade
+- Regulatory policy in LAC and SEA
+- Regulatory reform and regional initiatives
+- Research careers and mobility
+- Research infrastructure
+- Research workforce diversity
+- Resilience in agriculture and food systems
+- Resilient supply chains
+- Responsible innovation
+- Rights in the digital age
+- Risk management, risk reduction and sustainable chemistry
+- Rural service delivery
+- School autonomy
+- School choice
+- School evaluation
+- School leader appraisal
+- School resources
+- Science literacy
+- Science, technology and innovation indicators
+- Security, borders and development
+- Semiconductors
+- Services trade in the global economy
+- Services trade restrictiveness index
+- Shipbuilding
+- Sickness and disability
+- Skills for the green transition
+- Skills strategies
+- Small Islands Developing States
+- SME financing, business conditions and growth
+- SME indicators, benchmarking and monitoring
+- SME trade, GVCs and competition
+- SMEs and global engagement
+- SMEs and trade
+- Social and economic impacts of environmental policies
+- Social and economic risks
+- Social and emotional skills
+- Social and health outcomes of education
+- Social economy and social innovation
+- Social mobility and equal opportunity
+- Social spending
+- Sources of funding for education
+- Space sustainability
+- Special education needs
+- Standard setting for tax and crime
+- Start-up driven innovation and growth
+- Steel
+- Strategic planning and regional development
+- Strategic public procurement
+- Structural reform
+- Student assessment
+- Student engagement and motivation
+- Student financial literacy
+- Student problem solving skills
+- Student socio-economic status
+- Student support
+- Students from migrant backgrounds
+- Students’ well-being
+- Sub-national finance for climate
+- Subject to Tax Rule
+- Subsidies and industrial policy
+- Supply chain interdependencies
+- Sustainable agriculture and trade
+- Sustainable and resilient infrastructure
+- Sustainable and responsible food supply chains
+- Sustainable consumption
+- Sustainable finance
+- Sustainable investment
+- Sustainable productivity growth in agriculture
+- Sustainable supply chains
+- Sustainable urban development
+- Synthetic biology
+- Tax administration capacity building and knowledge sharing
+- Tax and development partnerships
+- Tax capacity development and outreach
+- Tax certainty and policy implementation
+- Tax morale
+- Teacher appraisal
+- Teacher employment
+- Teacher initial education
+- Teacher practices
+- Teacher professional learning and development
+- Teacher working conditions
+- Technology diffusion
+- Technology governance
+- Territorial approach to climate action and resilience
+- Terrorist and violent extremist content
+- Testing of chemicals
+- The future of investment treaties
+- Trade and climate change
+- Trade and environmental sustainability
+- Trade and gender
+- Trade and indigenous peoples
+- Trade and labour
+- Trade and the circular economy
+- Trade facilitation
+- Trade in value-added
+- Trade policy and global value chains
+- Transfer pricing
+- Transformational change for net zero
+- Trends shaping education and skills
+- Trust in government
+- Universal health coverage
+- Urban housing
+- Urban systems
+- Urbanisation and development
+- Use and allocation of public funds for education
+- VAT policy and administration
+- Vocational education and training (VET)
+- Vocational education and training (VET) skills
+- Waste management
+- Water
+- Water and agriculture
+- Water governance
+- Water quality
+- Youth employment and social policies
+- Youth empowerment and intergenerational justice
+
+### Country
+
+- Total folders: `206`
+- Path: `Country/`
+
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Anguilla
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Aruba
+- Australia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bermuda
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brazil
+- British Virgin Islands
+- Brunei Darussalam
+- Bulgaria
+- Burkina Faso
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Canada
+- Cayman Islands
+- Chad
+- Chile
+- China (People's Republic of)
+- Chinese Taipei
+- Colombia
+- Comoros
+- Congo
+- Cook Islands
+- Costa Rica
+- Croatia
+- Cuba
+- Cyprus
+- Czechia
+- Côte d'Ivoire
+- Democratic People's Republic of Korea
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Estonia
+- Eswatini
+- Ethiopia
+- European Union
+- Faroe Islands
+- Fiji
+- Finland
+- France
+- Gabon
+- Gambia
+- Georgia
+- Germany
+- Ghana
+- Gibraltar
+- Greece
+- Greenland
+- Grenada
+- Guatemala
+- Guernsey (Bailiwick of)
+- Guinea
+- Guinea-Bissau
+- Guyana
+- Haiti
+- Honduras
+- Hong-Kong (China)
+- Hungary
+- Iceland
+- India
+- Indonesia
+- Iraq
+- Ireland
+- Isle of Man
+- Israel
+- Italy
+- Jamaica
+- Japan
+- Jersey (Bailiwick of)
+- Jordan
+- Kazakhstan
+- Kenya
+- Korea
+- Kosovo
+- Kuwait
+- Kyrgyzstan
+- Lao People's Democratic Republic
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Macau (China)
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Mexico
+- Micronesia (Federated States of)
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Montserrat
+- Morocco
+- Mozambique
+- Myanmar
+- Namibia
+- Nepal
+- Netherlands
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Macedonia (Republic of)
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Palestinian Authority
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Qatar
+- Republic of Naoero
+- Romania
+- Russian Federation
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Singapore
+- Slovak Republic
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Sudan
+- Spain
+- Sri Lanka
+- Suriname
+- Sweden
+- Switzerland
+- Syrian Arab Republic
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkmenistan
+- Turks and Caicos Islands
+- Tuvalu
+- Türkiye
+- Uganda
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States
+- Uruguay
+- Uzbekistan
+- Vanuatu
+- Venezuela
+- Viet Nam
+- Yemen
+- Zambia
+- Zimbabwe
+
+### Serials
+
+- Total folders: `522`
+- Path: `Serials/`
+
+- Activities of the Conference: Resolutions of the Council of Ministers of Transport and Reports Approved
+- ADB - OECD Anti-Corruption Initiative for Asia and the Pacific
+- African Central Government Debt
+- African Economic Outlook
+- Africa’s Development Dynamics
+- Ageing and Employment Policies
+- Agricultural Policies in Emerging and Transition Economies
+- Agricultural Policies in Emerging Economies
+- Agricultural Policies in Non-OECD Countries
+- Agricultural Policies in OECD Countries
+- Agricultural Policy Monitoring and Evaluation
+- Agriculture, Trade and the Environment
+- Aid Activities in Africa
+- Aid Activities in Asia
+- Aid Activities in CEECs - NIS
+- Aid Activities in Europe and Oceania
+- Aid Activities in Latin America and the Caribbean
+- Aid for Trade at a Glance
+- Annual Report and Resolutions of the Council of Ministers
+- Annual Report on the OECD Guidelines for Multinational Enterprises
+- APEC-OECD Co-operative Initiative on Regulatory Reform
+- Back to Work
+- Bank Profitability: Financial Statements of Banks
+- Bank Profitability: Methodological Country Notes
+- Benefit Systems and Work Incentives
+- Benefits and Wages
+- Best Practices in Development Co-operation
+- Better Aid
+- Better Policies
+- Better Regulation in Europe
+- Biological Resource Management in Agriculture
+- Building Trust in Public Institutions
+- Business Insights on Emerging Markets
+- CELE Exchange, Centre for Effective Learning Environments
+- Central Government Debt
+- Chemical Thermodynamics
+- China in the Global Economy
+- Climate Finance and the USD 100 Billion Goal
+- CO2 Emissions from Fuel Combustion
+- Coal Information
+- Competition Law and Policy Reviews
+- Competitiveness and Private Sector Development
+- Conflict and Fragility
+- Connecting People with Jobs
+- Consumption Tax Trends
+- Corporate Governance
+- Corporate Governance in Emerging Markets
+- Corporate Tax Statistics
+- Council of Ministers Resolutions
+- Creditor Reporting System
+- Creditor Reporting System on Aid Activities
+- CSNI Technical Opinion Papers
+- Cutting Red Tape
+- DAC Guidelines and Reference Series
+- Dealing with Climate Change: Policies and Measures in IEA Member Countries
+- Development Aid at a Glance
+- Development Centre Seminars
+- Development Centre Studies
+- Development Co-operation Report
+- Development Co-operation Reviews
+- Developments in Steelmaking Capacity of Non-OECD Economies
+- Directory of Bodies of the OECD
+- ECMT Round Tables
+- Economic Accounts for Agriculture
+- Economic Outlook for Southeast Asia, China and India
+- Economic Policy Reforms
+- Education and Training Policy
+- Education at a Glance
+- Education Policy Analysis
+- Education Policy Outlook
+- Education Today
+- Educational Research and Innovation
+- Electricity Information
+- Electricity Market Series
+- Energy Balances of non-OECD Countries
+- Energy Balances of OECD Countries
+- Energy Efficiency
+- Energy Efficiency Policy Profiles
+- Energy Market Experience
+- Energy Market Reform
+- Energy Policies Beyond IEA Countries
+- Energy Policies of IEA Countries
+- Energy Policies of IEA Countries: Review
+- Energy Prices and Taxes
+- Energy Prices and Taxes for OECD Countries
+- Energy Statistics of Non-OECD Countries
+- Energy Statistics of OECD Countries
+- Energy Technology Analysis
+- Energy Technology Perspectives
+- Enterprise Policy Performance Assessment
+- Entrepreneurship at a Glance
+- Environment at a Glance
+- Environmental Finance
+- EU Country Cancer Profiles
+- European Conference of Ministers of Transport Annual Report
+- Export Credit Financing Systems in OECD Member Countries and Non-Member Economies
+- External Debt Statistics
+- External Debt Statistics: Historical Data
+- Fighting Corruption in Eastern Europe and Central Asia
+- Fighting Corruption in Transition Economies
+- Financial Market Trends
+- Financing SMEs and Entrepreneurs
+- Gas Market Reports
+- Gender Equality at Work
+- Geographical Distribution of Financial Flows to Aid Recipients
+- Geographical Distribution of Financial Flows to Developing Countries
+- Getting Skills Right
+- Global EV Outlook
+- Global Forum on Transparency and Exchange of Information for Tax Purposes
+- Global Insurance Market Trends
+- Global Outlook on Financing for Sustainable Development
+- Government at a Glance
+- Government at a Glance: Latin America and the Caribbean
+- Green Finance and Investment
+- Harmonisation of Regulatory Oversight in Biotechnology
+- Health at a Glance
+- Health at a Glance: Asia - Pacific
+- Health at a Glance: Europe
+- Higher Education
+- Higher Education in Regional and City Development
+- Higher Education Management
+- Higher Education Management and Policy
+- Highlights from Education at a Glance
+- Highlights of the International Transport Forum
+- How's Life?
+- IEA Energy Papers
+- IEA Energy Policy Reviews
+- IEA Partner Country Series
+- IEA Technology Roadmaps
+- Illicit Trade
+- Implementing Education Policies
+- Implementing the OECD Anti-Bribery Convention
+- Inclusive Forum on Carbon Mitigation Approaches Papers
+- Indicators of Immigrant Integration
+- Indicators of Industry and Services
+- Information Technology Outlook
+- Institutional Investors Statistical Yearbook
+- Insurance Statistics Yearbook
+- International Direct Investment Statistics Yearbook
+- International Investment Perspectives
+- International Migration Outlook
+- International Standards for Fruit and Vegetables
+- International Summit on the Teaching Profession
+- International Symposium on Theory and Practice in Transport Economics
+- International Trade by Commodity Statistics
+- International Transport Forum Discussion Papers
+- International Transport Forum Policy Papers
+- Investing in Youth
+- Investment Guides
+- Iron and Steel Industry
+- Issues in International Taxation
+- ITF Research Reports
+- ITF Round Tables
+- ITF Roundtable Reports
+- ITF Transport Outlook
+- Job Creation and Local Economic Development
+- Jobs for Youth - Des emplois pour les jeunes
+- Journal of Business Cycle Measurement and Analysis
+- Key World Energy Statistics
+- Knowledge management
+- Labour Force Statistics
+- Latin American Economic Outlook
+- Legal Affairs
+- Local Economic and Employment Development (LEED)
+- Main Economic Indicators
+- Main Science and Technology Indicators
+- Making Integration Work
+- Market Report Series: Coal
+- Market Report Series: Gas
+- Market Report Series: Oil
+- Market Report Series: Renewables
+- Measuring Globalisation: Activities of Multinationals, Volume I, Manufacturing Sector
+- Measuring Globalisation: Activities of Multinationals, Volume II, Services
+- Medium-Term Coal Market Report
+- Medium-Term Gas Market Report
+- Medium-Term Oil Market Report
+- Medium-Term Renewable Energy Market Report
+- Mental Health and Work
+- Migration and the Labour Market in Asia
+- Model Tax Convention on Income and on Capital (Full Version)
+- Model Tax Convention on Income and on Capital: Condensed Version
+- Monthly Statistics of International Trade
+- Multilateral Development Finance
+- National Accounts at a Glance
+- National Accounts of OECD Countries
+- National Accounts of OECD Countries, Financial Accounts
+- National Accounts of OECD Countries, Financial Balance Sheets
+- National Accounts of OECD Countries, General Government Accounts
+- National Accounts of OECD Countries, Volume I, Main Aggregates
+- National Accounts of OECD Countries, Volume II, Detailed Tables
+- National Accounts of OECD Countries, Volume IIIa, Financial Accounts: Flows
+- National Accounts of OECD Countries, Volume IIIb, Financial Balance Sheets: Stocks
+- National Accounts of OECD Countries, Volume IV, General Government Accounts
+- Natural Gas Information
+- Natural Gas Market Review
+- New Approaches to Economic Challenges
+- Novel Food and Feed Safety
+- Nuclear Development
+- Nuclear Energy Data
+- Nuclear Law Bulletin
+- Nuclear Legislation in OECD Countries
+- Nuclear Regulation
+- Nuclear Safety
+- Nuclear Science
+- OECD - G20 Base Erosion and Profit Shifting Project
+- OECD - IEA Climate Change Expert Group Papers
+- OECD - ITF Joint Transport Research Centre Discussion Papers
+- OECD Agriculture and Food Policy Reviews
+- OECD Annual Report
+- OECD Artificial Intelligence Papers
+- OECD Best Practice Principles for Regulatory Policy
+- OECD Business and Finance Outlook
+- OECD Capital Market Series
+- OECD Central Government Debt Statistics
+- OECD Communications Outlook
+- OECD Compendium of Productivity Indicators
+- OECD Competition Assessment Reviews
+- OECD Competition Trends
+- OECD Corporate Governance Factbook
+- OECD Corporate Governance Working Papers
+- OECD Development Assistance Peer Reviews
+- OECD Development Centre Working Papers
+- OECD Development Co-operation Peer Reviews
+- OECD Development Co-operation Working Papers
+- OECD Development Pathways
+- OECD Development Policy Tools
+- OECD Digital Economy Outlook
+- OECD Digital Economy Papers
+- OECD Digital Education Outlook
+- OECD Digital Government Studies
+- OECD e-Government Studies
+- OECD Economic Outlook
+- OECD Economic Studies
+- OECD Economic Surveys
+- OECD Economic Surveys: Australia
+- OECD Economic Surveys: Austria
+- OECD Economic Surveys: Belgium
+- OECD Economic Surveys: Belgium - Luxembourg
+- OECD Economic Surveys: Brazil
+- OECD Economic Surveys: Bulgaria
+- OECD Economic Surveys: Canada
+- OECD Economic Surveys: Chile
+- OECD Economic Surveys: China
+- OECD Economic Surveys: Colombia
+- OECD Economic Surveys: Costa Rica
+- OECD Economic Surveys: Czechia
+- OECD Economic Surveys: Denmark
+- OECD Economic Surveys: Estonia
+- OECD Economic Surveys: Euro Area
+- OECD Economic Surveys: European Union
+- OECD Economic Surveys: European Union and Euro Area
+- OECD Economic Surveys: Finland
+- OECD Economic Surveys: France
+- OECD Economic Surveys: Germany
+- OECD Economic Surveys: Greece
+- OECD Economic Surveys: Hungary
+- OECD Economic Surveys: Iceland
+- OECD Economic Surveys: India
+- OECD Economic Surveys: Indonesia
+- OECD Economic Surveys: Ireland
+- OECD Economic Surveys: Israel
+- OECD Economic Surveys: Italy
+- OECD Economic Surveys: Japan
+- OECD Economic Surveys: Korea
+- OECD Economic Surveys: Latvia
+- OECD Economic Surveys: Lithuania
+- OECD Economic Surveys: Luxembourg
+- OECD Economic Surveys: Malaysia
+- OECD Economic Surveys: Mexico
+- OECD Economic Surveys: Netherlands
+- OECD Economic Surveys: New Zealand
+- OECD Economic Surveys: Norway
+- OECD Economic Surveys: Poland
+- OECD Economic Surveys: Portugal
+- OECD Economic Surveys: Romania
+- OECD Economic Surveys: Russian Federation
+- OECD Economic Surveys: Slovak Republic
+- OECD Economic Surveys: Slovenia
+- OECD Economic Surveys: South Africa
+- OECD Economic Surveys: Spain
+- OECD Economic Surveys: Sweden
+- OECD Economic Surveys: Switzerland
+- OECD Economic Surveys: Türkiye
+- OECD Economic Surveys: United Kingdom
+- OECD Economic Surveys: United States
+- OECD Economic Surveys: Yugoslavia
+- OECD Economics Department Working Papers
+- OECD Education Spotlights
+- OECD Education Working Papers
+- OECD Employment Outlook
+- OECD Environment Working Papers
+- OECD Environmental Data: Compendium
+- OECD Environmental Outlook
+- OECD Environmental Performance Reviews
+- OECD Factbook
+- OECD Fiscal Federalism Studies
+- OECD Food and Agricultural Reviews
+- OECD Food, Agriculture and Fisheries Papers
+- OECD Forum on Tax Administration
+- OECD Global Forum on International Investment
+- OECD Green Growth Papers
+- OECD Green Growth Studies
+- OECD Guidelines for the Testing of Chemicals, Section 1
+- OECD Guidelines for the Testing of Chemicals, Section 2
+- OECD Guidelines for the Testing of Chemicals, Section 3
+- OECD Guidelines for the Testing of Chemicals, Section 4
+- OECD Guidelines for the Testing of Chemicals, Section 5
+- OECD Health Policy Studies
+- OECD Health Technical Papers
+- OECD Health Working Papers
+- OECD Historical Statistics
+- OECD in Figures
+- OECD Insights
+- OECD Institutional Investors Statistics
+- OECD Insurance Statistics
+- OECD International Development Statistics
+- OECD International Direct Investment Statistics
+- OECD Investment Policy Perspectives
+- OECD Investment Policy Reviews
+- OECD Jobs Study Working Papers
+- OECD Journal on Budgeting
+- OECD Journal on Development
+- OECD Journal: Competition Law and Policy
+- OECD Journal: Economic Studies
+- OECD Journal: Financial Market Trends
+- OECD Journal: General Papers
+- OECD Journal: Journal of Business Cycle Measurement and Analysis
+- OECD Labour Force Statistics
+- OECD Labour Market and Social Policy Occasional Papers
+- OECD Local Economic and Employment Development (LEED) Papers
+- OECD Multi-level Governance Studies
+- OECD Observer
+- OECD Papers
+- OECD Papers on Well-being and Inequalities
+- OECD Pensions at a Glance
+- OECD Pensions Outlook
+- OECD Productivity Statistics
+- OECD Productivity Working Papers
+- OECD Public Governance Reviews
+- OECD Quarterly International Trade Statistics
+- OECD Regional Development Papers
+- OECD Regional Development Studies
+- OECD Regional Development Working Papers
+- OECD Regional Outlook
+- OECD Regions and Cities at a Glance
+- OECD Regions at a Glance
+- OECD Regulatory Policy Outlook
+- OECD Regulatory Policy Working Papers
+- OECD Research and Development Expenditure in Industry
+- OECD Review of Agricultural Policies
+- OECD Review of Fisheries
+- OECD Review of Fisheries: Country Statistics
+- OECD Reviews of Digital Transformation
+- OECD Reviews of Evaluation and Assessment in Education
+- OECD Reviews of Foreign Direct Investment
+- OECD Reviews of Health Care Quality
+- OECD Reviews of Health Systems
+- OECD Reviews of Human Resource Management in Government
+- OECD Reviews of Innovation Policy
+- OECD Reviews of Labour Market and Social Policies
+- OECD Reviews of Migrant Education
+- OECD Reviews of Pension Systems
+- OECD Reviews of Public Health
+- OECD Reviews of Regional Innovation
+- OECD Reviews of Regulatory Reform
+- OECD Reviews of Risk Management Policies
+- OECD Reviews of School Resources
+- OECD Reviews of Tertiary Education
+- OECD Reviews of Vocational Education and Training
+- OECD Reviews on Local Job Creation
+- OECD Roundtables on Competition Policy Papers
+- OECD Rural Policy Reviews
+- OECD Rural Studies
+- OECD Science, Technology and Industry Outlook
+- OECD Science, Technology and Industry Scoreboard
+- OECD Science, Technology and Industry Working Papers
+- OECD Science, Technology and Innovation Outlook
+- OECD Secretary-General's Report to Ministers
+- OECD Series on Adverse Outcome Pathways
+- OECD Series on Carbon Pricing and Energy Taxation
+- OECD Series on Prevention and Control of Pollutant Releases
+- OECD Series on Principles of Good Laboratory Practice and Compliance Monitoring
+- OECD Series on Risk Management of Chemicals
+- OECD Series on Testing and Assessment
+- OECD Series on the Safety of Manufactured Nanomaterials and other Advanced Materials
+- OECD Skills Outlook
+- OECD Skills Studies
+- OECD Small and Medium Enterprise Outlook
+- OECD SME and Entrepreneurship Outlook
+- OECD SME and Entrepreneurship Papers
+- OECD Social, Employment and Migration Working Papers
+- OECD Sovereign Borrowing Outlook
+- OECD STAN Database for Industrial Analysis
+- OECD Statistics on International Trade in Services
+- OECD Statistics on International Trade in Services, Volume I, Detailed Tables by Service Category
+- OECD Statistics on International Trade in Services, Volume II, Detailed Tables by Partner Country
+- OECD Statistics Working Papers
+- OECD Steel Outlook
+- OECD Studies on Environmental Innovation
+- OECD Studies on Environmental Policy and Household Behaviour
+- OECD Studies on Public Engagement
+- OECD Studies on SMEs and Entrepreneurship
+- OECD Studies on Tourism
+- OECD Studies on Water
+- OECD Sustainable Development Studies
+- OECD Tax Policy Reviews
+- OECD Tax Policy Studies
+- OECD Taxation Working Papers
+- OECD Territorial Reviews
+- OECD Tourism Trends and Policies
+- OECD Trade and Environment Working Papers
+- OECD Trade Policy Papers
+- OECD Trade Policy Studies
+- OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations
+- OECD Urban Policy Reviews
+- OECD Urban Studies
+- OECD Working Papers on Finance, Insurance and Private Pensions
+- OECD Working Papers on Fiscal Federalism
+- OECD Working Papers on Insurance and Private Pensions
+- OECD Working Papers on International Investment
+- OECD Working Papers on Public Governance
+- OECD Working Papers on Sovereign Borrowing and Public Debt Management
+- OECD-FAO Agricultural Outlook
+- Oil Information
+- Oil, Gas, Coal and Electricity
+- Partnership for Democratic Governance
+- PEB Exchange, Programme on Educational Building
+- PENELOPE: A code system for Monte Carlo simulation of electron and photon transport
+- Pension Markets in Focus
+- Pensions at a Glance Asia - Pacific
+- Perspectives on Global Development
+- PISA
+- Policy Issues in Insurance
+- Private Pensions Series
+- Private Sector Development in the Middle East and North Africa
+- Programme on Educational Building - PEB Papers
+- Projected Costs of Generating Electricity
+- Public Management Occasional Papers
+- Public Management Studies
+- Purchasing Power Parities and Real Expenditures
+- Quality Matters in Early Childhood Education and Care
+- Quarterly Labour Force Statistics
+- Quarterly National Accounts
+- Radiation Protection
+- Radioactive Waste Management
+- Radiological Protection
+- Recruiting Immigrant Workers
+- Renewables Information
+- Report of the activities of the conference
+- Research and Development Expenditure in Industry
+- Research and Development Statistics
+- Research on Transport Economics
+- Resolutions of the Council of Ministers of Transport and Reports Approved in
+- Revenue Statistics
+- Revenue Statistics in Africa
+- Revenue Statistics in Asia and the Pacific
+- Revenue Statistics in Asian and Pacific Economies
+- Revenue Statistics in Asian Countries
+- Revenue Statistics in Latin America
+- Revenue Statistics in Latin America and the Caribbean
+- Review of Fisheries in OECD Countries: Country Statistics
+- Review of Fisheries in OECD Countries: Policies and Summary Statistics
+- Reviews of National Policies for Education
+- Road Safety Annual Report
+- Road Transport and Intermodal Linkages Research Programme
+- School Safety and Security
+- Schooling for Tomorrow
+- Science, Technology and Industry Outlook
+- Series on Chemical Accidents
+- Series on Emission Scenario Documents
+- Series on Pesticides and Biocides
+- Services: Statistics on Value Added and Employment
+- SIGMA Monitoring Reports
+- SIGMA Papers
+- SME Policy Index
+- Social Institutions and Gender Index
+- Society at a Glance
+- Society at a Glance: Asia - Pacific
+- Southeast Asian Economic Outlook
+- STAN: OECD Structural Analysis Statistics
+- Starting Strong
+- State of Health in the EU
+- States of Fragility
+- Statistical Report on Road Accidents
+- STI Review
+- Strong Performers and Successful Reformers in Education
+- Structural and Demographic Business Statistics
+- Structural Statistics for Industry and Services
+- Symposium international sur la théorie et la pratique dans l'économie des transports
+- Talent Abroad
+- TALIS
+- Tax Administration
+- Tax Co-operation
+- Tax Inspectors Without Borders Annual Report
+- Tax Policy Reforms
+- Taxing Energy Use
+- Taxing Wages
+- The Climate Action Monitor
+- The DAC Guidelines
+- The Development Dimension
+- The Governance of Regulators
+- The Measurement of Scientific and Technological Activities
+- The Measurement of Scientific, Technological and Innovation Activities
+- The Missing Entrepreneurs
+- The OECD Health Project
+- The OECD Jobs Strategy
+- Tourism in OECD Countries
+- Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations
+- Transport and the Activity of the Conference: General Report on Activity. Annual Report
+- Trends in International Migration
+- Trends in the Transport Sector
+- Trends Shaping Education
+- Uranium
+- Value for Money in Government
+- West African Papers
+- West African Studies
+- Working Together for Integration
+- World Education Indicators
+- World Energy Balances
+- World Energy Investment
+- World Energy Outlook
+- World Energy Statistics
+
+### Programmes
+
+- Total folders: `90`
+- Path: `Programmes/`
+
+- A Territorial Approach to Climate Action and Resilience
+- Administrative Capacity Building for Regional Development
+- African Virtual Investment Platform
+- AI-WIPS
+- Aid for trade
+- BEPS in Mining Programme
+- Centre for Educational Research and Innovation (CERI)
+- Centre on philanthropy
+- Clean Energy Finance and Investment Mobilisation
+- DAC Evaluation Resource Centre - DeReC
+- DAC Working Party on Development Finance Statistics
+- Decarbonising Buildings in Cities and Regions
+- Early Childhood Education and Care Programme
+- Eastern Europe and South Caucasus Initiative
+- Education and Skills Policy Programme
+- Egypt Country Programme
+- Environment, health and safety
+- EU4Environment - Water Resources and Environmental Data
+- Eurasia Competitiveness Programme
+- Gender Initiative
+- Global Forum on Productivity (GFP)
+- Global Partnership on Artificial Intelligence
+- Helping SMEs scale up
+- Higher Education Policy
+- Inclusive Forum on Carbon Mitigation Approaches (IFCMA)
+- Inclusive Framework on BEPS
+- Indicators of Education Systems Programme
+- International Programme for Action on Climate
+- International Programme for Land-Based Finance
+- Knowledge Exchange Platform on Well-being Metrics and Policy Practice (KEP)
+- LAC Fiscal Initiative
+- Large Business and International Programme
+- Latin America and the Caribbean Regional Programme
+- Local Employment and Economic Development Programme (LEED)
+- MENA-OECD Competitiveness Programme
+- MENA-OECD Competitiveness Programme on Gender
+- MENA-OECD Governance Programme
+- Mining Regions and Cities
+- Multidimensional reviews
+- National Urban Policy Programme
+- Net Zero+: Building Climate and Economic Resilience
+- New Approaches to Economic Challenges (NAEC)
+- Observatory of Public Sector Innovation (OPSI)
+- Observatory on Social Mobility and Equal Opportunity
+- Ocean Economy Monitor
+- OECD Champion Mayors
+- OECD Data Collection Programme
+- OECD Initiative on Global Value Chains, Production Transformation and Development
+- OECD Observatory of Civic Space
+- OECD Platform on Financing SMEs for Sustainability
+- OECD Policy Dialogue on Natural Resource-based Development
+- OECD Principles on Rural Policy
+- OECD Programme on a Territorial Approach to the SDGs
+- OECD Strategic Foresight Unit
+- OECD Toolkit for the Social Economy
+- OECD Trento Centre for Local Development
+- OECD Youthwise
+- Patient-Reported Indicator Surveys (PaRIS)
+- Place-based policy analysis and advice at the OECD Trento Centre
+- Product Market Regulation (PMR)
+- Programme for International Student Assessment (PISA)
+- Programme for the International Assessment of Adult Competencies (PIAAC)
+- Providing Local Actors with Case Studies, Evidence and Solutions (PLACES)
+- Regional Entrepreneurial Ecosystems
+- Reinforcing Democracy Initiative
+- Rethinking Regional Attractiveness (REG-ATT)
+- SG Reform
+- Skills for SMEs and Entrepreneurs
+- SME and Entrepreneurship Financing
+- South East Europe Regional Programme
+- Southeast Asia Regional Programme
+- Stand by Youth Initiative
+- Start-up and Scale-up Policy
+- Strengthening intra-regional food trade in West Africa
+- Subnational Government Climate Finance Hub
+- Support for Improvement in Governance and Management (SIGMA)
+- Survey of Social and Emotional Skills (SSES)
+- Sustainable Infrastructure Programme in Asia
+- Sustainable Ocean for All
+- Tax Inspectors Without Borders
+- Teaching and Learning International Survey (TALIS)
+- Territorial Approach to Migrant and Refugee Integration (TAMI)
+- Thailand Country Programme
+- The OECD Laboratory for Geospatial Analysis
+- The OECD Programme on Smart Cities and Inclusive Growth
+- The Spatial Productivity Lab at the OECD Trento Centre
+- Ukraine Country Programme
+- Unlocking the Potential of Intermediary Cities
+- Water Governance Initiative
+- Water-Energy-Land use Linkages
+
+### Network
+
+- Total folders: `62`
+- Path: `Network/`
+
+- Anti-corruption Network for Eastern Europe and Central Asia
+- Auditors Alliance
+- Business at OECD
+- Carbon Market Platform
+- Civil Society
+- Climate Change Expert Group (CCXG)
+- Corporate Governance in Asia
+- Corporate Governance in Latin America
+- Corporate governance of state-owned enterprises in Asia
+- DAC Community of Practice on Civil Society
+- DAC Community of Practice on Poverty and Inequalities
+- DAC Community of Practice on Private Finance for Sustainable Development
+- DAC International Network on Conflict and Fragility
+- DAC Network on Development Evaluation
+- DAC Network on Environment and Development Co-operation
+- DAC Network on Gender Equality
+- DAC Network on Governance
+- Digital Transformation Knowledge Sharing Group
+- Emerging Markets Network
+- Emerging Science to Improve Chemical Safety
+- Farm-Level Analysis Network
+- Fiscal Federalism Network
+- Food Chain Analysis Network
+- Food Crisis Prevention Network (FCPN)
+- Forum on Green Finance and Investment
+- Global engagement on anti-corruption and anti-bribery
+- Global Forum on Competition
+- Global Forum on Technology
+- Global Forum on Transparency and Exchange of Information for Tax Purposes
+- Global Science Forum
+- GREEN Action Task Force
+- International Network for Financial Education (INFE)
+- Investment Promotion Agency Network
+- Istanbul Centre
+- Latin American and Caribbean Competition Forum
+- National Contact Points for Responsible Business Conduct
+- Network of Communication Officers on Migration
+- Network of Foundations Working for Development
+- Network of Senior Officials from Centres of Government
+- Network on Agricultural Total Factor Productivity and the Environment
+- Network on Early Childhood Education and Care
+- Network on Fiscal Relations Across Levels of Government
+- OECD AI Network of Experts
+- OECD Digital for SMEs Global Initiative (D4SME)
+- OECD Forum on Tax Administration
+- OECD Global Forum on Local Development
+- OECD Global Roundtables on Access to Justice
+- OECD Network of Economic Regulators
+- OECD Research and Innovation Careers Observatory
+- OECD World Forums on Well-being
+- Partnership of International Organisations for Effective International Rulemaking
+- Private Finance for Sustainable Development Conference
+- Regional and National Policy Dialogues on Water
+- Regional Centre for Competition in Asia-Pacific
+- Regional Centre for Competition in Eastern Europe and Central Asia
+- Regional Centre for Competition in Latin America and the Caribbean
+- Roundtable on Financing Water
+- Semiconductor Informal Exchange Network
+- SME and Entrepreneurship Policy Evaluation Discussion Network
+- Southeast Asia Regional Policy Network on Education and Skills
+- Testing and assessment methodologies of chemicals
+- Trade Union Advisory Committee to the OECD
+
+### OECD Directorates
+
+- Total folders: `18`
+- Path: `OECD Directorates/`
+
+- Centre for Entrepreneurship, SMEs, Regions and Cities
+- Centre for Skills
+- Centre for Tax Policy and Administration
+- Centre on Well-being, Inclusion, Sustainability and Equal Opportunity
+- Development Centre
+- Development Co-operation Directorate
+- Directorate for Communications
+- Directorate for Education and Skills
+- Directorate for Employment, Labour and Social Affairs
+- Directorate for Financial and Enterprise Affairs
+- Directorate for Public Governance
+- Directorate for Science, Technology and Innovation
+- Economics Department
+- Environment Directorate
+- Global Relations and Cooperation Directorate
+- Sahel and West Africa Club
+- Statistics and Data Directorate
+- Trade and Agriculture Directorate
+
+## Note
+
+The `Country`, `Programmes`, `Network`, `OECD Directorates`, and `Policy Sub-Issues` folders were derived from the provided HTML exports.
+
+The `Serials` HTML export contained repeated labels, so the folder structure keeps `522` unique serial names rather than duplicating repeated entries.
+
