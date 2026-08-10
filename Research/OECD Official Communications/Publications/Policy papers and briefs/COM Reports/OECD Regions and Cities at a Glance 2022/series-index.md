@@ -1,0 +1,38 @@
+# OECD Regions and Cities at a Glance 2022
+
+- RSS items in series: 32
+
+## Publications
+
+- [OECD Regions and Cities at a Glance 2022: United States](OECD Regions and Cities at a Glance 2022 - United States.md)
+- [OECD Regions and Cities at a Glance 2022: United Kingdom](OECD Regions and Cities at a Glance 2022 - United Kingdom.md)
+- [OECD Regions and Cities at a Glance 2022: Türkiye](OECD Regions and Cities at a Glance 2022 - Türkiye.md)
+- [OECD Regions and Cities at a Glance 2022: Switzerland](OECD Regions and Cities at a Glance 2022 - Switzerland.md)
+- [OECD Regions and Cities at a Glance 2022: Sweden](OECD Regions and Cities at a Glance 2022 - Sweden.md)
+- [OECD Regions and Cities at a Glance 2022: Spain](OECD Regions and Cities at a Glance 2022 - Spain.md)
+- [OECD Regions and Cities at a Glance 2022: Slovenia](OECD Regions and Cities at a Glance 2022 - Slovenia.md)
+- [OECD Regions and Cities at a Glance 2022: Slovak Republic](OECD Regions and Cities at a Glance 2022 - Slovak Republic.md)
+- [OECD Regions and Cities at a Glance 2022: Poland](OECD Regions and Cities at a Glance 2022 - Poland.md)
+- [OECD Regions and Cities at a Glance 2022: Norway](OECD Regions and Cities at a Glance 2022 - Norway.md)
+- [OECD Regions and Cities at a Glance 2022: New Zealand](OECD Regions and Cities at a Glance 2022 - New Zealand.md)
+- [OECD Regions and Cities at a Glance 2022: Mexico](OECD Regions and Cities at a Glance 2022 - Mexico.md)
+- [OECD Regions and Cities at a Glance 2022: Luxembourg](OECD Regions and Cities at a Glance 2022 - Luxembourg.md)
+- [OECD Regions and Cities at a Glance 2022: Lithuania](OECD Regions and Cities at a Glance 2022 - Lithuania.md)
+- [OECD Regions and Cities at a Glance 2022: Latvia](OECD Regions and Cities at a Glance 2022 - Latvia.md)
+- [OECD Regions and Cities at a Glance 2022: Korea](OECD Regions and Cities at a Glance 2022 - Korea.md)
+- [OECD Regions and Cities at a Glance 2022: Italy](OECD Regions and Cities at a Glance 2022 - Italy.md)
+- [OECD Regions and Cities at a Glance 2022: Israel](OECD Regions and Cities at a Glance 2022 - Israel.md)
+- [OECD Regions and Cities at a Glance 2022: Ireland](OECD Regions and Cities at a Glance 2022 - Ireland.md)
+- [OECD Regions and Cities at a Glance 2022: Iceland](OECD Regions and Cities at a Glance 2022 - Iceland.md)
+- [OECD Regions and Cities at a Glance 2022: Hungary](OECD Regions and Cities at a Glance 2022 - Hungary.md)
+- [OECD Regions and Cities at a Glance 2022: Greece](OECD Regions and Cities at a Glance 2022 - Greece.md)
+- [OECD Regions and Cities at a Glance 2022: Germany](OECD Regions and Cities at a Glance 2022 - Germany.md)
+- [OECD Regions and Cities at a Glance 2022: Finland](OECD Regions and Cities at a Glance 2022 - Finland.md)
+- [OECD Regions and Cities at a Glance 2022: Estonia](OECD Regions and Cities at a Glance 2022 - Estonia.md)
+- [OECD Regions and Cities at a Glance 2022: Denmark](OECD Regions and Cities at a Glance 2022 - Denmark.md)
+- [OECD Regions and Cities at a Glance 2022: Czechia](OECD Regions and Cities at a Glance 2022 - Czechia.md)
+- [OECD Regions and Cities at a Glance 2022: Costa Rica](OECD Regions and Cities at a Glance 2022 - Costa Rica.md)
+- [OECD Regions and Cities at a Glance 2022: Colombia](OECD Regions and Cities at a Glance 2022 - Colombia.md)
+- [OECD Regions and Cities at a Glance 2022: Canada](OECD Regions and Cities at a Glance 2022 - Canada.md)
+- [OECD Regions and Cities at a Glance 2022: Belgium](OECD Regions and Cities at a Glance 2022 - Belgium.md)
+- [OECD Regions and Cities at a Glance 2022: Austria](OECD Regions and Cities at a Glance 2022 - Austria.md)

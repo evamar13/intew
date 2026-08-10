@@ -1,0 +1,36 @@
+# Job Creation and Local Economic Development 2023
+
+- RSS items in series: 30
+
+## Publications
+
+- [Job Creation and Local Economic Development 2023: United States](Job Creation and Local Economic Development 2023 - United States.md)
+- [Job Creation and Local Economic Development 2023: United Kingdom](Job Creation and Local Economic Development 2023 - United Kingdom.md)
+- [Job Creation and Local Economic Development 2023: Switzerland](Job Creation and Local Economic Development 2023 - Switzerland.md)
+- [Job Creation and Local Economic Development 2023: Sweden](Job Creation and Local Economic Development 2023 - Sweden.md)
+- [Job Creation and Local Economic Development 2023: Spain](Job Creation and Local Economic Development 2023 - Spain.md)
+- [Job Creation and Local Economic Development 2023: Slovenia](Job Creation and Local Economic Development 2023 - Slovenia.md)
+- [Job Creation and Local Economic Development 2023: Slovak Republic](Job Creation and Local Economic Development 2023 - Slovak Republic.md)
+- [Job Creation and Local Economic Development 2023: Portugal](Job Creation and Local Economic Development 2023 - Portugal.md)
+- [Job Creation and Local Economic Development 2023: Poland](Job Creation and Local Economic Development 2023 - Poland.md)
+- [Job Creation and Local Economic Development 2023: Norway](Job Creation and Local Economic Development 2023 - Norway.md)
+- [Job Creation and Local Economic Development 2023: New Zealand](Job Creation and Local Economic Development 2023 - New Zealand.md)
+- [Job Creation and Local Economic Development 2023: Netherlands](Job Creation and Local Economic Development 2023 - Netherlands.md)
+- [Job Creation and Local Economic Development 2023: Luxembourg](Job Creation and Local Economic Development 2023 - Luxembourg.md)
+- [Job Creation and Local Economic Development 2023: Lithuania](Job Creation and Local Economic Development 2023 - Lithuania.md)
+- [Job Creation and Local Economic Development 2023: Latvia](Job Creation and Local Economic Development 2023 - Latvia.md)
+- [Job Creation and Local Economic Development 2023: Italy](Job Creation and Local Economic Development 2023 - Italy.md)
+- [Job Creation and Local Economic Development 2023: Ireland](Job Creation and Local Economic Development 2023 - Ireland.md)
+- [Job Creation and Local Economic Development 2023: Iceland](Job Creation and Local Economic Development 2023 - Iceland.md)
+- [Job Creation and Local Economic Development 2023: Hungary](Job Creation and Local Economic Development 2023 - Hungary.md)
+- [Job Creation and Local Economic Development 2023: Greece](Job Creation and Local Economic Development 2023 - Greece.md)
+- [Job Creation and Local Economic Development 2023: Germany](Job Creation and Local Economic Development 2023 - Germany.md)
+- [Job Creation and Local Economic Development 2023: France](Job Creation and Local Economic Development 2023 - France.md)
+- [Job Creation and Local Economic Development 2023: Finland](Job Creation and Local Economic Development 2023 - Finland.md)
+- [Job Creation and Local Economic Development 2023: Estonia](Job Creation and Local Economic Development 2023 - Estonia.md)
+- [Job Creation and Local Economic Development 2023: Denmark](Job Creation and Local Economic Development 2023 - Denmark.md)
+- [Job Creation and Local Economic Development 2023: Czechia](Job Creation and Local Economic Development 2023 - Czechia.md)
+- [Job Creation and Local Economic Development 2023: Canada](Job Creation and Local Economic Development 2023 - Canada.md)
+- [Job Creation and Local Economic Development 2023: Belgium](Job Creation and Local Economic Development 2023 - Belgium.md)
+- [Job Creation and Local Economic Development 2023: Austria](Job Creation and Local Economic Development 2023 - Austria.md)
+- [Job Creation and Local Economic Development 2023: Australia](Job Creation and Local Economic Development 2023 - Australia.md)
