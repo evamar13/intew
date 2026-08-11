@@ -1,0 +1,66 @@
+# There are many ways to minimise water use related to AI operations, but they may not be what you think
+
+- Date: `2025-10-07`
+
+## Stored Source
+
+There are many ways to minimise water use related to AI operations, but they may not be what you think
+[Shaolei Ren](https://oecd.ai/en/community/shaolei-ren)
+Amy Luers
+Shaolei Ren[, Amy Luers](https://oecd.ai/en/community/amy-luers)
+
+October 7, 2025 — clock7 min read
+
+LinkedIn logoTwitter logoFacebook logo
+a data centre with water illustrated on top
+AI is surging not just in popularity and investment, but also in its physical scale. Behind every chatbot query or AI-powered service are data centres that consume large amounts of electricity, generate significant heat, and need cooling to remain reliable. Many facilities rely heavily on water for cooling, drawing attention to AI’s growing water consumption. Although [AI-related workloads account for only 15%](https://iea.blob.core.windows.net/assets/601eaec9-ba91-4623-819b-4ded331ec9e8/EnergyandAI.pdf) of data centre electricity use today, they are the fastest-growing driver of new demand, and their share is expected to increase rapidly.
+
+What is less obvious but more important is that AI depends on an electricity system that is itself highly water-intensive. Beyond the water that evaporates on-site, substantially larger volumes are consumed at the power plants that supply data centres with electricity. In many regions, [this indirect water use makes up 80%](https://dl.acm.org/doi/10.1145/3724499) or more of the total.
+
+Direct and indirect water usage are distinct yet interconnected challenges: one is rooted in on-site operational choices and local water infrastructure, and the other is linked to broader power systems.  Whether direct or indirect data centre water use creates meaningful impacts depends on where and when the water is used. Data centre water use is not inherently a problem—virtually every sector of the economy uses water for cooling, processing, or production. The challenge arises in water-stressed regions, or during seasonal peaks when demand from households, agriculture, and industry is already high, potentially straining local systems and resources.
+
+Measuring water use: Water consumption and water withdrawal
+Water use in data centres is measured in two main ways: withdrawals (the total amount taken from a source) and consumption (the portion lost through evaporation or otherwise not returned to the source). Both matter for water management, but they capture different impacts.
+
+Withdrawals represent the amount of water that data centres physically extract from a source—mainly from public systems, although some draw directly from groundwater or surface water. Consumption indicates the portion of withdrawn water that is permanently removed, typically through evaporation.
+
+The difference between total withdrawal and consumption is important for understanding the impact of data centres on water use. Just as human bodies cool themselves by sweating, many data centres are cooled by water evaporation. Often, this involves potable water drawn from the same supplies that serve homes and businesses. This direct use is counted as “consumed.” Some companies report that 45% of their withdrawals are consumed, while others report up to 60%. The remaining non-consumed water is typically released into wastewater systems and eventually returned to rivers or aquifers.
+
+Tracking overall direct water use remains difficult. Major tech companies now disclose water use, but [many other facilities do not](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2024.GlobalDataCenterSurvey.Report.pdf), leaving significant gaps. In 2023, data centres in the U.S.—[home to about 40% of the world’s data centres](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/investing-in-the-rising-data-center-economy)—withdrew an estimated 35 billion gallons, or [about 0.3% of the contiguous U.S. total public water supply](https://pubs.usgs.gov/publication/pp1894D/full), with a 50% consumptive rate. This estimate comes from the [Lawrence Berkeley National Laboratory](https://escholarship.org/uc/item/32d6m0d1)’s modelling, which assumes optimal cooling operations and may understate the true share. The same report projects that U.S. onsite consumption could double or even quadruple by 2028.
+
+Direct water use: Local and sometimes stressful on water supplies
+In the U.S. and globally, total water use by data centres is modest compared to other sectors. But the growth of data centres can strain local systems in some regions where they are concentrated and expanding rapidly. [Bloomberg News reports](https://www.bloomberg.com/graphics/2025-ai-impacts-data-centers-water-data/) that areas with high water stress levels host about two-thirds of new data centres built in the U.S. since 2022. 
+
+At the state level, data centres also make up a small percentage of total water usage. For example, in Virginia, often dubbed the data centre capital, data centres collectively accounted for less than 0.5% of the state’s total withdrawal in 2023. Yet, for some local water utilities, data centres can be among the largest customers. For example, public reports indicate that in at least a couple of small municipalities, where data centres are a major industry in the district, they can use up to 30% or more of the local supply.
+
+The biggest challenge for local communities may not be the total volume of water used by data centres, but water demands during peak use periods. On hot days, when water demand from other users is high, data centre water cooling also increases. For example, in Arizona, a data centre’s monthly water usage during summer can be nearly twice its average level, directly consuming approximately 2.4 gallons of water for each kWh of server energy.
+
+According to the New York Times, in Newton County, Georgia, [nine new applications have been submitted to build data centres](https://www.nytimes.com/2025/07/14/technology/meta-data-center-water.html). The water requested daily by some companies would exceed the county’s daily water use during summer heatwaves. This means the county will need to either decline these requests, require the data centres to implement alternative water-efficient cooling systems, invest in costly water infrastructure upgrades, or risk imposing water rationing on residents.
+
+[>> How much water does AI consume? The public deserves to know](https://oecd.ai/en/wonk/how-much-water-does-ai-consume)
+
+Indirect water use: Thirsty electricity
+Indirect water use refers to the water consumed in the process of generating electricity. Virtually all activities contribute indirectly to water use through the power they consume, from turning on the lights at home to running a steel plant. Data centres are no exception.
+
+Globally, electricity is still generated mostly by fossil fuel-based power plants that require substantial water for cooling. The U.S. electric power sector withdraws about [11.6 gallons](https://www.eia.gov/todayinenergy/detail.php?id=56820) of water and consumes [1.2 gallons](https://escholarship.org/uc/item/32d6m0d1) for every kilowatt-hour of electricity produced, [placing it among the nation’s largest water users](https://www.usgs.gov/media/images/source-and-use-water-us-2015). The water used by power plants is typically non-potable and not drawn from municipal water systems. So it does not compete with community water needs but in water-stressed regions, heavy water use by the electricity sector can place stress on rivers, aquifers, and ecosystems.
+
+The electricity required to power data centres in the U.S. in 2023 accounted for approximately [4.6%](https://escholarship.org/uc/item/32d6m0d1) of the power sector’s total water consumption. To put this into context, the entire commercial sector’s electricity use accounts for about [35.4%](https://www.eia.gov/energyexplained/electricity/use-of-electricity.php) of the power sector’s total water consumption. 
+
+Unlike onsite water use for data centre cooling, indirect water use depends on the energy mix behind the grid, rather than directly on the operations of data centres themselves. This means that the location of a data centre can significantly influence how much water is indirectly consumed, as energy mixes and water intensities vary widely by region.
+
+For most U.S. data centres, this indirect use is significantly higher than direct onsite water use. A recent [study](https://dl.acm.org/doi/10.1145/3724499) estimated that in 2023, using GPT-3 to generate a text output of 150 to 300 words consumed a total of 16.9 millilitres of water in an average U.S. data centre—2.2 millilitres for onsite cooling and 14.7 millilitres for electricity generation. Efficiency gains in later and sometimes smaller models have likely reduced these numbers, but the indirect-to-total water ratio is expected to be similar.
+
+Follow us on LinkedIn
+Minimising water use in data centres and electricity sources requires innovation, collaboration and tailored strategies
+Unlike electricity, using water for cooling is a design choice. Evaporative cooling has long been a popular choice due to its affordability and efficiency. However, alternatives are emerging, including air economisers, liquid-immersion cooling, recycled or non-potable water, and even zero-water designs. Newer chips that operate at higher temperatures and utilise waste heat also help reduce demand. The main challenge is peak demand: solutions include onsite storage, reclaimed water, and thermal energy storage to shift cooling loads, along with infrastructure upgrades.
+
+In the electricity sector, reducing water use means shifting toward low-water sources, such as wind and solar, while innovating to advance lower water options for firm, dispatchable  low-carbon energy sources like nuclear and geothermal. Many operators are procuring carbon-free power and investing in bringing more of it onto the grid. However, more work is needed across the sector to transition the global electric grid to low-water energy. Three key priorities include:
+
+Innovation. Innovation is transforming how water is managed in data centres and power systems. Cooling technologies are evolving as innovations enable higher operating temperatures and closed-loop cycles, thereby reducing demand. AI is accelerating progress on multiple fronts, including AI-powered leak detection that helps utilities locate water leaks and identify problems before millions of gallons are lost. This is particularly important for water-stressed regions. The U.S. Environmental Protection Agency (EPA) notes that [average water loss in U.S. systems is around 16%, with up to 75%](https://www.epa.gov/sites/default/files/2015-04/documents/epa816f13002.pdf) potentially recoverable through a combination of technology, infrastructure investment, and management practices. AI is also helping to discover [new thermoelectric materials](https://www.nature.com/articles/s41598-019-39278-z#Sec6) that can convert waste heat into electricity, and improving the efficiency of both [data centre](https://assets.new.siemens.com/siemens/assets/api/uuid:fdf5b798-479e-4f74-80d2-e472daf1f09a/Final-WSCO-White-Paper-AI.pdf) and [power plant](https://ieeexplore.ieee.org/document/9282137) operations.
+Collaboration. Reducing water use from the electricity sector without increasing emissions requires joint efforts from developers, utilities, regulators, and communities. [U.S. power grids have already demonstrated a steady shift towards cooling methods with lower water withdrawals](https://www.eia.gov/todayinenergy/detail.php?id=56820) as policies and industry choices evolve. Partnerships are essential for advancing pilot projects and developing scalable solutions, from “demand response” to thermal energy storage, and upgrading local water infrastructure, so data centre cooling can shift away from using municipal water during peak heat hours and ease pressure on local water systems. 
+Tailored strategies. What works best often depends on place. In water-stressed regions, data centre operators should prioritise low- or zero-water cooling, along with peak-management measures, to avoid straining municipal supplies on hot days.
+
+Where water is more abundant but the grid is carbon-intensive, efficient evaporative cooling may remain the better interim choice while low-water renewables and firm low-carbon capacity scale up. Meanwhile, sites can further protect potable supplies by using non-potable and recycled water for cooling rather than drawing from natural water bodies.
+AI has brought more attention to how society uses water. However, the real water sustainability story is much bigger than AI: it is about the broader economy’s unnecessarily heavy reliance on water, particularly in the electricity sector. AI has made this challenge more visible, and that can help accelerate innovations, collaborations, and a focus on place-based strategies. Altogether, this can enable smarter water management, reduce water demand, and make water supplies more resilient.
+
+*The views expressed in this article are those of the authors and do not necessarily reflect the views of their employers or affiliated institutions.
