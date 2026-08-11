@@ -20,6 +20,19 @@ This includes:
 - `AI-Mediated Channels`
 - `Measurement - Intelligence Layer`
 
+Within the channel layer, relevant OECD-owned examples include:
+
+- `Institutional Website`
+- `External Blog Platforms`
+- `Newsletters`
+- `Multimedia Digital Content`
+- `Publications Platform`
+
+Relevant shared-channel examples include:
+
+- `Social Media`
+- `Audio and Video Platforms`
+
 ### Audiences
 
 Use [Audiences](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/OECD%20Official%20Communications/Audiences) to classify communication by target audience.
@@ -30,6 +43,7 @@ This includes:
 - `Specialized Public Policy Audiences`
 - `Academic Ecosystem`
 - `Institutional and Parliamentary Stakeholders`
+- `Media and Journalists`
 
 ### Analytics and Intelligence
 
@@ -58,6 +72,7 @@ This includes:
 - `Media Briefs`
 - `OECD in the News`
 - `Multimedia Digital Content`
+- `News and Events`
 
 ### Publications
 
