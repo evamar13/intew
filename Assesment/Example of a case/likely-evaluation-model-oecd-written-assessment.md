@@ -30,6 +30,30 @@ Given the instructions and the job description, the most likely format is:
 
 This strongly suggests a **policy-communications analysis memo** or **short strategic recommendation paper**, not a creative essay and not a technical exam in the narrow sense.
 
+## A More Realistic Version Of The Case Question
+
+The earlier hypothetical question was directionally correct, but still too broad. Based on the research on COM, OECD communications, AI-mediated discoverability, official statistics, and reporting practice, a more realistic case would likely look like this:
+
+> **You have joined the Communications Impact Unit in the Directorate for Communications. A high-profile OECD report with a statistical release and media push will be published shortly. The Head of Unit asks you to prepare a short internal note explaining how COM should monitor the performance of this output during the first three months after launch. The note should explain how to assess visibility and influence across media, the OECD website, publications, policy and academic uptake, and emerging AI-mediated environments such as generative search and LLM interfaces. It should identify the main measurement and reputational risks, propose a practical set of indicators, explain how bot or crawler activity should be interpreted, and outline how the results should be presented in an internal dashboard or Power BI report for management.**  
+
+This version is more realistic because it is:
+
+- workplace-based rather than abstract
+- tied to a specific COM output cycle
+- consistent with COM's role in impact, standards, and reputation
+- explicit about both traditional and AI-mediated environments
+- operational enough to test whether you can move from analysis to reporting
+
+## What A Strong Question Is Really Testing
+
+A question like the one above does not only test whether you understand AI. It tests whether you can do the core job:
+
+- translate a communications challenge into an analytical framework
+- distinguish direct metrics from proxies
+- connect media, publication, policy, and academic evidence
+- protect institutional credibility through caveats and data quality controls
+- produce a note that a manager could realistically use
+
 ## What The Databox Screenshots Add
 
 The Databox screenshots from `Maki Plarform` show a broader OECD activity library configured in Maki. They do **not** prove your exact live question, but they do show the kinds of dimensions OECD is already using in platform activities.
