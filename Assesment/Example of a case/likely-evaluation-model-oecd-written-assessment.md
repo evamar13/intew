@@ -32,9 +32,11 @@ This strongly suggests a **policy-communications analysis memo** or **short stra
 
 ## A More Realistic Version Of The Case Question
 
-The earlier hypothetical question was directionally correct, but still too broad. Based on the research on COM, OECD communications, AI-mediated discoverability, official statistics, and reporting practice, a more realistic case would likely look like this:
+The earlier hypothetical question was directionally correct, but still too broad and not analytical enough. Based on the research on COM, OECD communications, AI-mediated discoverability, official statistics, and reporting practice, a more realistic written assessment would probably include a **small evidence pack** and ask for a note that interprets it.
 
-> **You have joined the Communications Impact Unit in the Directorate for Communications. A high-profile OECD report with a statistical release and media push will be published shortly. The Head of Unit asks you to prepare a short internal note explaining how COM should monitor the performance of this output during the first three months after launch. The note should explain how to assess visibility and influence across media, the OECD website, publications, policy and academic uptake, and emerging AI-mediated environments such as generative search and LLM interfaces. It should identify the main measurement and reputational risks, propose a practical set of indicators, explain how bot or crawler activity should be interpreted, and outline how the results should be presented in an internal dashboard or Power BI report for management.**  
+It would likely look more like this:
+
+> **You have joined the Communications Impact Unit in the Directorate for Communications. Four weeks after the publication of a high-profile OECD report and statistical release, the Head of Unit asks you to prepare a short internal note for management based on the performance data provided in the annex. Your note should identify the main findings, distinguish meaningful signals from noise, explain any anomalies, assess visibility and influence across media, OECD digital assets, policy and academic uptake, and emerging AI-mediated environments, and recommend how COM should adjust its monitoring and reporting approach for the next phase.**
 
 This version is more realistic because it is:
 
@@ -42,17 +44,46 @@ This version is more realistic because it is:
 - tied to a specific COM output cycle
 - consistent with COM's role in impact, standards, and reputation
 - explicit about both traditional and AI-mediated environments
+- analytical rather than descriptive because it requires interpretation of evidence
 - operational enough to test whether you can move from analysis to reporting
+
+## What The Data In A Realistic Case Would Probably Look Like
+
+The case would not need a huge dataset. A plausible OECD written assessment would more likely provide:
+
+- a short weekly performance table
+- a breakdown by asset or page type
+- a small media-quality or attribution table
+- a few AI-output checks or crawler observations
+- perhaps one obvious anomaly that should not be misread
+
+That would be enough to test judgment without turning the exercise into a spreadsheet exam.
 
 ## What A Strong Question Is Really Testing
 
 A question like the one above does not only test whether you understand AI. It tests whether you can do the core job:
 
 - translate a communications challenge into an analytical framework
+- read a mixed-quality evidence pack and extract the important story
 - distinguish direct metrics from proxies
+- separate signal from distortion
 - connect media, publication, policy, and academic evidence
 - protect institutional credibility through caveats and data quality controls
 - produce a note that a manager could realistically use
+
+## What The Analytical Side Would Likely Test Specifically
+
+If OECD includes tables or short annexes, the assessment is likely testing whether you can:
+
+- identify the two or three findings that actually matter
+- detect when a traffic spike is likely bot- or crawler-driven rather than human uptake
+- distinguish launch visibility from sustained influence
+- interpret rising policy or academic mentions differently from falling pageviews
+- explain why AI referrals may remain low even if AI-mediated influence is increasing
+- avoid overclaiming from partial or imperfect attribution
+- turn raw numbers into a reporting recommendation or management action
+
+In other words, they are unlikely to want a purely conceptual answer. They are more likely to want **applied analytical judgment**.
 
 ## What The Databox Screenshots Add
 
@@ -187,11 +218,12 @@ This role is explicitly analytical. The written answer will probably be judged o
 
 ### Strong answer pattern
 
-- define the problem
-- explain why it matters
-- identify options or causes
+- identify the key findings in the data
+- explain what is probably happening and why
+- distinguish robust findings from uncertain ones
+- identify risks, gaps, or anomalies
 - recommend a course of action
-- explain implementation and risks
+- explain implementation and reporting implications
 
 ### More precise interpretation from the screenshots
 
@@ -207,6 +239,20 @@ That makes it very likely that your written answer will be read for:
 - whether you break the issue into manageable components
 - whether you synthesize information into a coherent recommendation
 - whether you convert analysis into reporting logic that could realistically be operationalised by COM
+- whether you correctly interpret imperfect or mixed signals rather than treating all numbers as equally meaningful
+
+## What A Better Hypothetical Data-Based Case Would Test Better
+
+Compared with the earlier version, a better hypothetical case for this role should force you to handle tensions such as:
+
+- high traffic but low quality engagement
+- rising crawler activity with unclear human value
+- low direct AI referrals but growing evidence of AI-mediated visibility
+- declining media volume but improving policy uptake
+- strong launch attention but uneven asset performance
+- attribution gaps that require proxy thinking rather than precise claims
+
+Those tensions are much closer to the real analytical work implied by the job description than a broad essay-only prompt.
 
 ## D. Strategic judgment
 
