@@ -2,1296 +2,739 @@
 
 ## Purpose
 
-This manual explains how to write in a way that sounds recognisably OECD, based on the official OECD material already collected in `Research`.
+This manual explains how to reproduce an OECD-like written voice **using the OECD PDFs stored in `Research` as the source base**.
 
-It is not a copy of the formal style guide. It is a **practical voice manual** for reproducing:
+It is designed for:
 
-- the OECD's institutional tone
-- the OECD's newsroom and press tone
-- the OECD's publication-introduction tone
-- the lighter but still policy-serious tone used in OECD blogs such as The AI Wonk
+- written assessment prep
+- policy-style drafting
+- briefing notes
+- report introductions
+- executive summaries
+- analytical memos
 
-It should be used together with the official PDF already stored here:
+It is **not** based on the Markdown notes in this workspace. It is based on the OECD PDFs listed below and on repeated patterns found in their:
+
+- executive summaries
+- key messages
+- chapter openings
+- table-of-contents logic
+- figure and table presentation
+- citation and disclaimer conventions
+- policy recommendation phrasing
+
+## PDF source base used
+
+### Core style source
 
 - [OECD Style Guide (Fourth Edition) - 2025.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/OECD%20Tone%20Of%20Voice/OECD%20Style%20Guide%20%28Fourth%20Edition%29%20-%202025.pdf)
 
-## Main source base used
+### OECD policy/report PDFs used to infer tone, structure and discourse logic
 
-This manual is grounded primarily in:
+- [Artificial Intelligence in Society - eedfee77-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20AI%20In%20Society/eedfee77-en.pdf)
+- [Artificial Intelligence Markets: Recent Developments and Competition Issues - d531d73f-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20AI%20Markets%20report/d531d73f-en.pdf)
+- [The Adoption of Artificial Intelligence in Firms - f9ef33c3-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20Adoption%20of%20AI%20in%20Firms/f9ef33c3-en.pdf)
+- [Governing with Artificial Intelligence - 795de142-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20Governing%20with%20AI/795de142-en.pdf)
+- [AI and Skills: What We Know So Far - f843b352-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20AI%20And%20Skills/f843b352-en.pdf)
+- [Introducing the OECD AI Capability Indicators - be745f04-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20AI%20Capability%20Indicators/be745f04-en.pdf)
+- [Towards a Common Reporting Framework for AI Incidents - f326d4ac-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20Commun%20Reporting%20Framworks%20dor%20AI%20Incidents/f326d4ac-en.pdf)
+- [Explanatory Memorandum on the Updated OECD Definition of an AI System - 623da898-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20Definition%20of%20an%20AI%20System/623da898-en.pdf)
+- [G7 Toolkit for Artificial Intelligence in the Public Sector - 421c1244-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20G7%20Toolkit%20for%20AI%20in%20the%20Public%20Sector/421c1244-en.pdf)
+- [OECD Due Diligence Guidance for Responsible AI - 41671712-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20Due%20Diligence%20Guiance%20for%20Responsible%20AI/41671712-en.pdf)
+- [OECD AI Principles - 1cd40c44-en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20AI%20Principles/1cd40c44-en.pdf)
+- [OECD Recommendation on Artificial Intelligence - C-MIN(2024)17.en.pdf](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/OECD%20AI%20Principles/C-MIN%282024%2917.en.pdf)
 
-- [directorate-for-communications.md](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/Directorate%20COM%20Department/directorate-for-communications.md)
-- [how-we-work.md](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/AI%20in%20the%20OECD/how-we-work.md)
-- [newsroom-overview-reference.md](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/OECD%20Official%20Communications/Media/News%20and%20Events/Newsroom/newsroom-overview-reference.md)
-- [newsroom-latest-press-releases-reference.md](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/OECD%20Official%20Communications/Media/Press/Press%20Releases/newsroom-latest-press-releases-reference.md)
-- [com-policy-papers-and-briefs-reference.md](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/OECD%20Official%20Communications/Publications/Policy%20papers%20and%20briefs/COM%20Reports/com-policy-papers-and-briefs-reference.md)
-- [blogs-reference.md](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/OECD%20Official%20Communications/Media/News%20and%20Events/Blogs%20and%20Podcasts/Blogs/blogs-reference.md)
-- [the-ai-wonk-reference.md](/Users/evadelmarperez/Library/CloudStorage/OneDrive-PUIG/Python%20projects/Personal/intew/Research/OECD%20Official%20Communications/Channels/Owned%20Channels/External%20Blog%20Platforms/The%20AI%20Wonk/the-ai-wonk-reference.md)
+## Scope of this manual
+
+This manual reflects the tone of **OECD publication PDFs**, especially:
+
+- policy papers
+- OECD AI papers
+- explanatory memoranda
+- toolkits
+- analytical reports
+- indicator reports
+
+It is therefore strongest for:
+
+- analytical writing
+- policy writing
+- executive summaries
+- structured recommendations
+- data-backed synthesis
+
+It is less about:
+
+- social copy
+- speeches
+- webpages
+- short promotional text
 
 ---
 
-## 1. The OECD voice in one line
+## 1. OECD voice in one line
 
-The OECD sounds like a **serious, internationally minded public-policy institution** that wants to be:
+The OECD PDF voice is:
 
-- authoritative
-- factual
-- calm
-- useful
-- cross-country
+- institutional
+- evidence-led
+- internationally comparative
 - policy-oriented
-- accessible without becoming casual
+- structured
+- calm
+- precise
 
-The OECD does **not** sound like:
+It does not sound like:
 
-- a marketing brand
-- an activist campaign
-- a newspaper
-- an academic journal
-- a consultancy selling solutions
+- journalism
+- campaigning
+- consultancy sales copy
+- academic theory for its own sake
+- startup marketing
+
+The core effect is:
+
+**authoritative without being loud, analytical without being abstract, and practical without becoming casual**
 
 ---
 
-## 2. Core voice traits
+## 2. What the OECD PDFs consistently do
 
-## 2.1 Evidence-first
+Across the PDFs above, the OECD repeatedly builds text around the same sequence:
 
-OECD writing normally starts from:
+1. Define the issue clearly.
+2. Explain why it matters in economic, social, governance or institutional terms.
+3. Present evidence, patterns, or observed trends.
+4. Distinguish opportunities from risks.
+5. Translate findings into policy relevance.
+6. End with implications, actions, or future work.
 
-- data
-- analysis
-- findings
-- policy implications
-- institutional role
+That sequence is more important than any single wording choice. If the reasoning structure is wrong, the text will not sound OECD even if the vocabulary does.
 
-It rarely starts from personal opinion or emotional framing.
+---
 
-Typical move:
+## 3. Core voice traits derived from the PDFs
 
-- state the issue
-- explain the evidence
-- show why it matters
-- connect it to policy action, standards, or stakeholder use
+## 3.1 Evidence first
 
-## 2.2 Calm authority
+The OECD PDFs usually begin from:
 
-The OECD sounds confident, but not loud. It does not overstate.
+- evidence
+- observed trends
+- policy need
+- institutional purpose
+- clearly bounded questions
 
-It prefers:
+They do not usually begin from:
 
-- `shows`
+- personal anecdote
+- strong opinion
+- rhetorical flourish
+- emotional scene-setting
+
+Typical OECD opening move:
+
+- define a policy or governance issue
+- state that benefits exist
+- state that risks or implementation barriers also exist
+- position the paper as helping policymakers understand or respond
+
+## 3.2 Measured authority
+
+The PDFs sound confident, but not overstated.
+
+Common OECD verb logic:
+
+- `can help`
+- `may raise`
 - `suggests`
-- `helps`
-- `supports`
 - `highlights`
-- `contributes to`
-- `provides`
-- `strengthens`
+- `shows`
+- `points to`
+- `is associated with`
+- `can facilitate`
+- `can hinder`
+- `requires`
+- `should`
 
-It uses stronger verbs when justified by the format, especially in headlines:
+The OECD often makes strong policy points, but through careful phrasing rather than dramatic language.
 
-- `should strengthen`
-- `can sustain`
-- `remain strong`
-- `need to turn commitments into action`
+## 3.3 Policy usefulness
 
-But even then, the underlying tone stays measured.
+OECD text is not content for content’s sake. It is designed to help:
 
-## 2.3 Public-policy usefulness
+- policymakers
+- regulators
+- public institutions
+- firms
+- stakeholders
 
-OECD writing nearly always implies:
+The writing nearly always answers some version of:
 
-- what this means for governments
-- what this means for stakeholders
-- what this means for policy debates
-- why the evidence matters for better decisions
+- what is happening?
+- why does it matter?
+- what should public actors understand or do?
 
-The OECD voice is not only descriptive. It is **decision-relevant**.
+## 3.4 Balanced framing
 
-## 2.4 International and comparative perspective
+The PDFs often use a balanced architecture:
 
-OECD language often broadens the frame:
+- potential benefits
+- risks and challenges
+- barriers to adoption
+- conditions for good implementation
+
+This is one of the clearest OECD discourse habits.
+
+The OECD rarely writes as if:
+
+- a technology is entirely good
+- a technology is entirely harmful
+- one policy lever alone solves the issue
+
+## 3.5 International comparability
+
+The OECD voice repeatedly broadens out:
 
 - across countries
-- across regions
-- across policy systems
+- across sectors
+- across institutions
 - across stakeholder groups
+- across policy settings
 
-It frequently positions an issue in relation to:
-
-- Members and partners
-- global audiences
-- international co-operation
-- comparability
-- cross-border implications
-
-## 2.5 Neutral, not sterile
-
-OECD copy avoids emotional drama, but it is not dry if well written.
-
-It creates interest through:
-
-- relevance
-- scale
-- comparison
-- policy consequence
-- institutional credibility
-
-It does not rely on:
-
-- hype
-- outrage
-- exaggerated novelty
-- personal storytelling as the default frame
+Even when the example is narrow, the framing tends to reconnect it to wider comparability or interoperability.
 
 ---
 
-## 3. The OECD writing formula
+## 4. The logic pattern behind OECD writing
 
-For most OECD texts, the underlying structure is:
+The PDFs show a consistent analytical logic:
 
-1. Define the issue.
-2. Ground it in evidence, analysis, or institutional function.
-3. Explain why it matters.
-4. Connect it to policy, stakeholders, standards, or action.
+## 4.1 Problem
 
-Short OECD texts often follow this pattern:
+The issue is stated early and plainly.
 
-- sentence 1: what the issue or finding is
-- sentence 2: why it matters or what it shows
-- sentence 3: how the OECD contributes, recommends, measures, convenes, or informs
+Examples of problem logic used in OECD PDFs:
 
-Longer OECD texts often follow this pattern:
+- adoption is uneven
+- benefits exist but risks are materialising
+- implementation remains limited
+- capacity gaps constrain deployment
+- policy fragmentation creates inefficiency
+- data, skills, or governance gaps slow progress
 
-- overview
-- evidence or analytical framing
-- policy relevance
-- institutional role or next step
+## 4.2 Evidence
+
+The text then introduces:
+
+- survey evidence
+- observed trends
+- use cases
+- literature-backed claims
+- cross-country examples
+- indicator-based interpretation
+
+## 4.3 Tension
+
+The OECD often builds useful tension, for example:
+
+- innovation vs concentration
+- opportunity vs risk
+- uptake vs capability gaps
+- experimentation vs guardrails
+- scale vs trustworthiness
+
+This is one reason OECD writing feels policy-serious: it does not flatten complexity.
+
+## 4.4 Actionability
+
+The final move is usually:
+
+- what policymakers should monitor
+- what governments should strengthen
+- what firms or institutions need
+- what frameworks can support implementation
+- what further work or international co-operation is required
 
 ---
 
-## 4. Vocabulary patterns to imitate
+## 5. How OECD PDFs structure information
 
-## 4.1 High-frequency OECD verbs
+## 5.1 Front matter is formal and standardised
+
+The PDFs consistently open with:
+
+- title
+- institutional attribution
+- responsibility disclaimer
+- citation format
+- ISBN / DOI / publication series details
+- licensing information
+
+This creates an official, standardised frame before the substantive text even starts.
+
+## 5.2 Executive summaries are operational, not decorative
+
+OECD executive summaries usually:
+
+- state the main issue immediately
+- summarise evidence
+- identify constraints or risks
+- point to policy implications
+
+They are not loose overviews. They are compressed analytical outputs.
+
+## 5.3 Key messages are short, specific and policy-facing
+
+In PDFs such as `AI and Skills: What We Know So Far`, the key messages:
+
+- use concrete percentages or findings
+- avoid theory-heavy framing
+- connect facts to policy response
+
+This is a strong OECD habit:
+
+**compress complexity into clear, decision-relevant bullets**
+
+## 5.4 Chapters and sections are functionally named
+
+OECD headings usually tell the reader exactly what the section does.
+
+Common heading patterns:
+
+- `What can policymakers do?`
+- `Key findings`
+- `Current state of play`
+- `Managing risks and challenges`
+- `Untapped potential and way forward`
+- `Implementation challenges`
+- `References`
+- `Executive summary`
+
+This is not decorative writing. It is navigational writing.
+
+---
+
+## 6. Sentence architecture
+
+## 6.1 Dense but controlled
+
+OECD sentences are often medium-long, but they are tightly organised.
+
+Typical pattern:
+
+- main claim
+- qualifying clause
+- reason or evidence
+- policy implication
+
+Example pattern to imitate:
+
+`AI can improve productivity and service delivery, but its benefits depend on the availability of skills, data, institutional capacity and appropriate governance arrangements.`
+
+## 6.2 High use of contrast markers
+
+The PDFs frequently use:
+
+- `however`
+- `at the same time`
+- `while`
+- `despite`
+- `although`
+- `in contrast`
+- `moreover`
+- `furthermore`
+
+These transitions help maintain analytical balance.
+
+## 6.3 Parallel constructions
+
+OECD prose often groups actions or themes in parallel:
+
+- `monitor, evaluate and adapt`
+- `safe, secure and trustworthy`
+- `design, deployment and monitoring`
+- `benefits, risks and trade-offs`
+
+Parallelism is one of the easiest ways to make text sound more OECD-like.
+
+---
+
+## 7. Vocabulary patterns that sound OECD
+
+## 7.1 Verbs
 
 Use verbs like:
 
 - inform
-- guide
 - support
 - strengthen
+- foster
 - improve
 - enhance
-- foster
-- promote
-- contribute to
-- equip
-- provide
-- help shape
-- convene
-- assess
+- enable
 - monitor
 - evaluate
-- leverage
-- disseminate
+- assess
+- facilitate
+- guide
+- identify
+- address
+- promote
+- align
+- manage
+- build
+- equip
 
-## 4.2 High-frequency OECD nouns
+## 7.2 Nouns
 
 Use nouns like:
 
-- analysis
 - evidence
-- statistics
-- data
-- knowledge
-- policy debates
-- stakeholders
-- standards
-- frameworks
-- guidance
-- recommendations
-- impact
-- visibility
-- well-being
-- resilience
-- governance
-- co-operation
 - uptake
 - implementation
-- alignment
+- capacity
+- governance
+- trust
+- risk
+- deployment
+- framework
+- indicators
+- interoperability
+- transparency
+- accountability
+- resilience
+- policy action
+- stakeholders
+- public value
+- institutions
 
-## 4.3 High-frequency OECD adjective/adverb patterns
+## 7.3 Adjectives
 
 Use adjectives like:
 
 - evidence-based
-- trusted
+- trustworthy
+- responsible
 - comparable
 - inclusive
-- sustainable
-- effective
-- responsible
-- global
-- cross-border
-- coherent
-- accessible
+- cross-country
 - practical
-- structured
-- meaningful
+- systemic
+- strategic
+- policy-relevant
+- transparent
+- interoperable
+- balanced
 - long-term
 
-Use adverbs sparingly. OECD style does not usually over-modify.
+## 7.4 Terms the OECD repeatedly favours
 
-## 4.4 Signature institutional phrases
+Across these PDFs, especially the AI papers, the OECD strongly favours phrases such as:
 
-These are strongly OECD-coded:
-
-- `better policies for better lives`
-- `trusted statistics and analysis`
-- `inform policy debates`
-- `level the playing field`
-- `support policy reform`
-- `evidence-based analysis`
-- `member and non-member countries`
-- `international co-operation`
+- `safe, secure and trustworthy`
 - `policy makers`
-- `stakeholders`
-
-Use them naturally, not mechanically.
+- `cross-country evidence`
+- `current state of play`
+- `opportunities and risks`
+- `implementation challenges`
+- `future work`
+- `public sector`
+- `international co-operation`
+- `skills gaps`
+- `monitoring and evaluation`
+- `policy action`
 
 ---
 
-## 5. Sentence style
+## 8. Headline and subheading logic
 
-## 5.1 Medium-length, information-dense sentences
+The OECD PDF style does not usually chase catchy headlines. It prefers:
 
-OECD writing often uses medium-to-long sentences with multiple linked functions, for example:
+- topic + analytical angle
+- topic + policy relevance
+- issue + institutional function
 
-- the issue
-- the OECD action
-- the intended benefit
+Typical OECD title logic:
+
+- `Introducing the OECD AI Capability Indicators`
+- `Governing with Artificial Intelligence`
+- `The Adoption of Artificial Intelligence in Firms`
+- `Towards a Common Reporting Framework for AI Incidents`
+
+This title style is:
+
+- clear
+- descriptive
+- institutional
+- direct
+
+Subheadings usually do one of four things:
+
+- define the analytical question
+- present the state of play
+- organise evidence
+- move from diagnosis to recommendations
+
+---
+
+## 9. How OECD presents evidence
+
+## 9.1 Evidence is introduced early
+
+The OECD tends to bring in:
+
+- percentages
+- trend statements
+- comparative observations
+- counts of cases or survey respondents
+- references to figures and tables
+
+quickly, often in the executive summary or key messages.
+
+## 9.2 Numbers are interpreted, not dumped
+
+The PDFs usually do not just present a statistic. They interpret it.
 
 Pattern:
 
-`The Directorate for Communications works to enhance the OECD's global impact and visibility. By disseminating the Organisation's analysis, data and knowledge, COM helps to inform policy debates globally and equip policy makers to make informed decisions.`
+1. state the number or finding
+2. explain what it suggests
+3. connect it to the policy issue
 
-This is classic OECD sentence architecture:
+## 9.3 Figures and tables are integral to the argument
 
-- institutional actor
-- action
-- knowledge asset
-- policy or stakeholder outcome
+The OECD PDFs are strongly structured around:
 
-## 5.2 Prefer clarity over flourish
+- `Table`
+- `Figure`
+- `Box`
+- annexes
 
-Avoid:
+These are not decorative. They support a sequence of reasoning.
 
-- overly clever phrasing
-- metaphor-heavy writing
-- dramatic rhetorical questions in formal texts
-- punchy startup-style copy
+If you want to imitate OECD logic, think:
 
-Prefer:
-
-- precise explanation
-- restrained emphasis
-- orderly sequencing
-
-## 5.3 Use parallel structure
-
-OECD writing often lists functions or outputs in parallel form:
-
-- `inform, convene, set standards`
-- `data, analysis and knowledge`
-- `monitoring, assessment and reporting`
-
-This makes text sound more institutional and controlled.
-
-## 5.4 Qualify claims properly
-
-Instead of:
-
-- `This proves...`
-- `This revolutionises...`
-- `This completely changes...`
-
-Prefer:
-
-- `This suggests...`
-- `This highlights...`
-- `This underlines...`
-- `This can help...`
-- `This points to...`
-- `This is consistent with...`
+- what belongs in the body text?
+- what belongs in a chart?
+- what belongs in a box?
+- what belongs in annex material?
 
 ---
 
-## 6. Headline style
+## 10. How OECD writes recommendations
 
-OECD headlines are usually:
+OECD recommendations are usually:
 
-- direct
-- policy-relevant
-- descriptive
-- findings-led
-
-They often use one of these structures.
-
-## 6.1 Finding + implication
-
-- `OECD job markets remain strong, but real wages are lagging`
-- `Digital trade accounted for one quarter of total trade across the OECD in 2023`
-
-## 6.2 Country + policy recommendation
-
-- `Malaysia can sustain high growth through reforms that strengthen fiscal management, boost productivity, and improve education`
-- `Hungary should strengthen public finances and raise growth potential`
-
-## 6.3 Institutional action
-
-- `OECD to launch the Economic Survey of Malaysia on 28 July`
-- `OECD to present latest results from Survey on Drivers of Trust in Public Institutions`
-
-## 6.4 Topic + practical angle
-
-Common in blog writing:
-
-- `Five industrial policy principles for small open economies`
-- `Why AI Sandboxes matter for responsible innovation and public trust`
-
-### How to copy the headline style
-
-Do:
-
-- lead with the subject or finding
-- include the policy consequence
-- keep it explicit
-- make it useful before making it catchy
-
-Do not:
-
-- write vague teaser headlines
-- use clickbait
-- overuse puns in formal outputs
-
----
-
-## 7. Structure by text type
-
-The OECD does not use exactly the same tone in every format. It has sub-voices.
-
-## 7.1 Institutional page voice
-
-Used for:
-
-- `Who we are`
-- `What we do`
-- `How we work`
-- directorate or mission pages
-
-### Tone
-
-- formal
-- stable
-- mission-led
-- explanatory
-- institution-centred
-
-### Typical structure
-
-1. Mission or function statement
-2. What the OECD or directorate does
-3. How it does it
-4. Why it matters for policy, stakeholders, or public value
-
-### Template
-
-`[Unit/Organisation] works to [institutional purpose]. By [main actions], it helps to [policy/stakeholder outcome]. Through [channels/methods], it contributes to [broader mission].`
-
-## 7.2 Newsroom and press-release voice
-
-Used for:
-
-- press releases
-- advisories
-- statistical releases
-- institutional announcements
-
-### Tone
-
-- factual
-- compact
-- news-oriented
-- authoritative
-- externally readable
-
-### Typical structure
-
-1. Headline with finding or recommendation
-2. First paragraph with the main news
-3. Key evidence or reason
-4. Policy relevance
-5. Contact, release, or procedural information
-
-### How to sound OECD in press copy
-
-- lead with the finding, not the background
-- use numbers early when available
-- keep the policy implication visible
-- avoid tabloid framing
-
-## 7.3 Publication and policy-paper voice
-
-Used for:
-
-- reports
-- policy papers
-- briefs
-- country notes
-
-### Tone
-
-- analytical
+- specific
 - structured
-- comparative
-- substantive
-- often compressed
+- conditional
+- realistic
 
-### Typical structure
+They tend to use:
 
-1. Define the policy issue
-2. Present evidence or context
-3. Explain implications
-4. Offer recommendations, guidance, or structured findings
+- `policymakers should`
+- `governments should`
+- `authorities can`
+- `policy action should`
+- `further work is needed`
 
-### What this voice sounds like
+They usually avoid:
 
-It often reads as:
+- absolutist policy prescriptions
+- ideological language
+- sweeping universal claims
 
-- more formal than a blog
-- less immediate than a press release
-- more decision-oriented than an academic article
+Recommendation logic usually follows:
 
-## 7.4 OECD blog voice
-
-Used for:
-
-- internal OECD blogs
-- external OECD-owned blog platforms
-- The AI Wonk
-
-### Tone
-
-- more human
-- more accessible
-- still policy-serious
-- slightly more vivid in framing
-- still evidence-led
-
-### Typical structure
-
-1. Start with the problem, question, or tension
-2. Explain what is changing
-3. Bring in evidence or examples
-4. Connect back to policy, trust, governance, or implementation
-
-### What changes in the blog voice
-
-Blogs may use:
-
-- a more direct question
-- a more conversational opening
-- clearer narrative transitions
-- slightly more memorable phrasing
-
-But they still avoid:
-
-- slang
-- exaggeration
-- unsupported claims
+1. because of the evidence
+2. and because of the risk/opportunity
+3. policymakers should strengthen / improve / monitor / facilitate / align
 
 ---
 
-## 8. What OECD writing usually emphasises
+## 11. How OECD builds narrative without sounding journalistic
 
-If you want a text to sound OECD, keep returning to these themes:
+The PDFs do create narrative, but through **progressive analytical movement**, not storytelling.
 
-- evidence
-- comparability
-- policy relevance
-- implementation
-- stakeholder usefulness
-- international co-operation
-- responsible governance
-- trust
-- clarity
-- long-term public value
+Common narrative path:
 
-Even when the topic is technical, OECD often translates it into one or more of these.
+- context
+- emergence of issue
+- evidence of change
+- implications
+- action points
+
+This creates forward motion while staying formal.
+
+The OECD usually does not rely on:
+
+- character-driven storytelling
+- emotional hooks
+- suspense
+- stylistic surprise
+
+Instead it relies on:
+
+- accumulation of evidence
+- carefully staged argument
+- increasing specificity
 
 ---
 
-## 9. What to avoid if you want to sound OECD
+## 12. What to avoid if you want to sound OECD
 
 Avoid:
 
-- marketing language such as `game-changing`, `groundbreaking`, `disruptive`, `best-in-class`
-- activist language that sounds partisan or accusatory
-- overly academic wording with heavy theory and little practical implication
-- emotional overstatement
-- first-person opinion as the main driver
-- casual idioms
-- vague abstractions without a policy or evidence anchor
+- hype words like `revolutionary`, `game-changing`, `unprecedented` unless strongly justified
+- startup phrasing like `move fast`, `scale instantly`, `unlock massive value`
+- moral grandstanding
+- casual expressions
+- dramatic rhetorical questions
+- consultant buzzword overload
+- absolute claims without qualification
+- excessive first person
 
-Replace:
+Also avoid academic over-complexity:
 
-- `This is amazing` with `This is significant because...`
-- `This changes everything` with `This has important implications for...`
-- `The OECD is leading the way` with `The OECD supports, informs, convenes, assesses, or provides guidance...`
+- overly abstract definitions without policy payoff
+- long theory-only digressions
+- unexplained jargon
 
----
-
-## 10. OECD paragraph patterns you can reuse
-
-## 10.1 Institutional mission paragraph
-
-`The OECD works to [institutional purpose]. By [core actions], it helps [audiences] to [policy or decision outcome]. Through [methods/channels], it contributes to [broader mission].`
-
-## 10.2 Evidence-to-policy paragraph
-
-`The data show that [finding]. This matters because [policy consequence]. It points to the need for [action, reform, monitoring, co-operation or implementation step].`
-
-## 10.3 Comparative paragraph
-
-`Across countries, [trend]. However, outcomes vary depending on [condition]. This highlights the importance of [policy factor, institutional capacity, governance arrangement or implementation approach].`
-
-## 10.4 Risk-and-governance paragraph
-
-`While [opportunity or trend], important risks remain. These include [risk 1], [risk 2] and [risk 3]. Addressing them requires [governance, standards, co-operation, transparency, capacity or monitoring].`
-
-## 10.5 COM-style communications-impact paragraph
-
-`The objective is not only to increase visibility, but to ensure that OECD evidence is accessible, accurately represented and useful to priority audiences. This requires combining performance data with qualitative assessment, while maintaining clear methodological caveats.`
+The OECD voice is serious, but it still wants to be readable.
 
 ---
 
-## 11. How to structure any OECD-style text
+## 13. How to imitate OECD document architecture
 
-If you need a universal OECD-safe structure, use this:
+If you are writing an OECD-style analytical note, a strong template is:
 
-## A. Opening
+## Title
 
-- define the issue immediately
-- place it in a policy or institutional frame
+Plain, descriptive, issue-focused.
 
-## B. Evidence or context
+## Key messages
 
-- show the data, trend, challenge, or comparative picture
+- 4 to 8 bullets
+- each bullet states a finding or implication
+- use numbers where useful
 
-## C. Why it matters
+## 1. Context / why this matters
 
-- explain the consequence for governments, stakeholders, or public outcomes
+- define the issue
+- explain why it is relevant now
 
-## D. OECD role or recommendation
+## 2. Evidence / state of play
 
-- explain what the OECD does, recommends, measures, supports, or provides
+- present findings
+- compare where possible
+- identify main trends
 
-## E. Closing
+## 3. Risks, barriers or implementation challenges
 
-- return to public value, implementation, resilience, trust, or better policy outcomes
+- what limits progress?
+- what could go wrong?
 
----
+## 4. Policy implications / what can policymakers do?
 
-## 12. How to imitate OECD transitions
+- structured action points
+- realistic recommendations
 
-Good OECD-style transitions:
+## 5. Conclusion / future work
 
-- `This matters because...`
-- `This highlights...`
-- `At the same time...`
-- `However...`
-- `In practice...`
-- `Across countries...`
-- `In this context...`
-- `To this end...`
-- `At the request of governments...`
-- `Over time...`
-- `Taken together...`
+- summarise what matters most
+- indicate next analytical or policy steps
 
-These are more OECD-like than highly rhetorical transitions.
+That architecture matches the logic repeatedly seen in the OECD PDFs.
 
 ---
 
-## 13. Tone calibration by audience
+## 14. How to present charts, tables and sourced claims in an OECD-like way
 
-## For governments and policy makers
+## 14.1 Tables and figures need functional titles
 
-Use:
+Use titles like:
 
-- practical implications
-- implementation language
-- standards and reform framing
-- comparative evidence
+- `Use of AI by firm size`
+- `Main barriers to adoption`
+- `Reported incidents by category`
+- `Examples of AI use in government`
 
-## For journalists
+Avoid clever chart titles.
 
-Use:
+## 14.2 Sources must be visible
 
-- the finding first
-- the number early
-- the policy relevance quickly
-- the institutional context briefly
+OECD-style evidence presentation expects:
 
-## For general public and civil society
+- source line
+- year
+- population or sample if relevant
+- note when needed
 
-Use:
+## 14.3 Notes matter
 
-- simpler framing
-- fewer technical terms
-- still evidence-based language
-- clear explanation of why the issue affects lives, opportunities, trust, or well-being
+OECD PDFs often include:
 
-## For expert and technical audiences
+- methodological notes
+- caveats
+- country coverage notes
+- definitional clarifications
 
-Use:
-
-- more precise terminology
-- more methodological caution
-- explicit caveats
-- structured analytical sequencing
+This is part of the voice: precision is built not only in prose, but in apparatus.
 
 ---
 
-## 14. Mini conversion guide
+## 15. Practical writing formulas
 
-## Generic sentence
+## 15.1 OECD-style opening
 
-`AI is changing everything and organisations need to move fast.`
+`Artificial intelligence can generate significant benefits, but these benefits depend on the conditions under which systems are developed, deployed and governed.`
 
-## More OECD-like
+## 15.2 OECD-style evidence sentence
 
-`AI is reshaping how organisations operate and how people access information, creating both opportunities and policy challenges that require careful governance and practical adaptation.`
+`Recent survey evidence suggests that firms continue to face significant barriers to adoption, particularly in relation to skills, data and organisational capacity.`
 
-## Generic sentence
+## 15.3 OECD-style balanced sentence
 
-`Our dashboard will help people understand performance better.`
+`While AI can improve efficiency and support better decision making, it can also introduce risks related to transparency, fairness, privacy and accountability.`
 
-## More OECD-like
+## 15.4 OECD-style policy sentence
 
-`The dashboard is intended to provide a clearer and more structured view of performance, helping teams interpret trends, identify risks and support decision making.`
+`Policymakers should therefore focus on strengthening the enabling conditions for responsible adoption while ensuring that appropriate guardrails are in place.`
 
-## Generic sentence
+## 15.5 OECD-style conclusion sentence
 
-`Countries are struggling with this issue in different ways.`
-
-## More OECD-like
-
-`Across countries, approaches to this issue vary significantly, reflecting differences in institutional capacity, policy design and implementation context.`
+`Further work is needed to improve the evidence base, monitor implementation and support internationally interoperable approaches.`
 
 ---
 
-## 15. A practical checklist before finalising a text
+## 16. Fast checklist before finalising a text
 
 Ask:
 
-- Does the text sound evidence-based?
-- Does it explain why the issue matters for policy or stakeholders?
-- Does it avoid hype and overclaiming?
-- Does it use institutional rather than promotional language?
-- Does it move from issue to implication to action?
-- Does it sound internationally aware rather than nationally narrow?
-- Does it feel useful, not merely descriptive?
+- Does the text start from the issue, not from opinion?
+- Does it bring in evidence quickly?
+- Does it distinguish benefits from risks?
+- Does it connect analysis to policy relevance?
+- Does it sound international, comparative and institutional?
+- Are claims qualified appropriately?
+- Are headings functional rather than decorative?
+- Would the text still sound serious if all adjectives were reduced by half?
 
-If the answer to most of these is yes, the text is probably moving toward OECD tone.
-
----
-
-## 16. Best rule of thumb
-
-If you want to sound OECD, write as if you are:
-
-- informing a serious but busy international policy audience
-- representing an institution, not yourself
-- translating evidence into public-policy meaning
-- staying precise enough to be trusted
-- staying clear enough to be used
-
-That combination is the core OECD voice.
+If the answer to these is yes, the text is moving closer to OECD style.
 
 ---
 
-## 17. OECD information architecture
-
-To sound OECD, it is not enough to choose the right words. The **way information is displayed and organised** is also strongly patterned.
-
-Across the OECD material you collected, pages and documents usually separate content into three layers:
-
-- `metadata and orientation`
-- `substantive content`
-- `navigation, source or follow-up information`
-
-This makes OECD texts feel:
-
-- orderly
-- scannable
-- internationally reusable
-- suitable for both specialists and general readers
-
-## 17.1 The metadata layer usually comes first
-
-Common OECD metadata blocks include:
-
-- `Available in`
-- `Share`
-- `Date`
-- `Published`
-- `Updated`
-- `Source`
-- `Content type`
-- `Read time`
-
-This metadata is not decorative. It does three things:
-
-- orients the reader quickly
-- signals institutional transparency
-- frames the status of the content before the main text begins
-
-### Practical rule
-
-If you are imitating OECD structure, place orientation details near the top of the page or document, not buried later.
-
-## 17.2 The substantive content is then broken into clear sections
-
-OECD pages often move from top-level framing into clearly named sub-sections such as:
-
-- `Who we are`
-- `What we do`
-- `Key messages`
-- `Context`
-- `Main findings`
-- `Networks and programmes`
-- `Get in touch`
-- `Summary`
-- `Methodology`
-
-The OECD almost never relies on a single long undifferentiated block of prose.
-
-## 17.3 The final layer often gives navigation or next steps
-
-Typical closing elements include:
-
-- `Learn more`
-- `Related information`
-- `Contact and social media`
-- `Read case study`
-- `Download`
-- `Browse page`
-
-This creates an institutional feeling of continuity. OECD texts usually sit inside a wider knowledge ecosystem rather than standing alone.
-
----
-
-## 18. How OECD usually structures discourse
-
-OECD discourse is usually built in a **layered explanatory sequence**, not in a dramatic narrative arc.
-
-The most common internal logic is:
-
-1. establish the subject
-2. define the issue or finding
-3. anchor it in evidence
-4. explain implications
-5. connect it to policy, governance, institutions or stakeholders
-
-This means OECD texts often feel like they are written by people asking:
-
-- What is happening?
-- What do we know?
-- Why does it matter?
-- What should governments, institutions or stakeholders take from this?
-
-## 18.1 The OECD usually moves from fact to implication
-
-A classic OECD move is:
-
-- headline or opening sentence gives the finding
-- next sentences explain scale, variation or trend
-- then the text clarifies the consequence for policy or governance
-
-Example pattern:
-
-`X is increasing across the OECD. However, uptake remains uneven across countries or groups. This highlights the importance of Y.`
-
-That contrastive structure is very common.
-
-## 18.2 The OECD often uses controlled contrast
-
-A large amount of OECD reasoning is built through contrast:
-
-- growth, but uneven growth
-- progress, but remaining gaps
-- high visibility, but limited quality
-- opportunity, but governance challenge
-- adoption, but uneven distribution
-
-This is one of the clearest ways OECD avoids simplistic or exaggerated claims.
-
-### Practical rule
-
-If you want to sound OECD, avoid one-directional triumphalist narratives. Add the balancing clause that shows nuance.
-
-## 18.3 OECD logic is cumulative, not theatrical
-
-OECD writing builds authority by accumulation:
-
-- comparative data
-- institutional context
-- definitions
-- evidence layers
-- carefully framed implications
-
-It does not usually build authority through:
-
-- strong emotional language
-- rhetorical confrontation
-- personality-driven persuasion
-
----
-
-## 19. How OECD creates narrative
-
-The OECD does create narrative, but it is an **analytical narrative**.
-
-The usual building blocks are:
-
-- a policy problem
-- a measurable pattern
-- a comparison
-- a tension or gap
-- a governance or implementation consequence
-
-## 19.1 Typical OECD narrative sequence
-
-The narrative often looks like this:
-
-1. a topic or challenge is introduced
-2. evidence shows the scale or trend
-3. differences across populations, countries or sectors are identified
-4. this variation is interpreted
-5. the OECD role, policy implication or framework is introduced
-
-This is especially visible in:
-
-- topic pages
-- announcements
-- analytical blogs
-- policy-page summaries
-
-## 19.2 OECD narratives usually privilege systems over individuals
-
-Even when the content concerns people, the narrative usually focuses on:
-
-- institutions
-- policy frameworks
-- labour markets
-- sectors
-- countries
-- stakeholder groups
-
-The unit of meaning is usually systemic, not anecdotal.
-
-### Practical rule
-
-If you write a human example, do not let it replace the structural or policy logic of the text.
-
-## 19.3 OECD narrative often returns to public value
-
-Many OECD texts ultimately reconnect to one of these endpoints:
-
-- better decisions
-- trust
-- resilience
-- fairness
-- well-being
-- implementation
-- co-operation
-- better policies for better lives
-
-That return creates coherence across topics.
-
----
-
-## 20. How OECD displays and cites data
-
-One of the most important OECD habits is that **data presentation is disciplined and standardised**.
-
-The OECD does not usually throw numbers into the text randomly. It frames them.
-
-## 20.1 Numbers are contextualised
-
-When OECD uses a number, it often also states:
-
-- what the number measures
-- what period it covers
-- what population or geography it refers to
-- how it compares with another number
-
-Example pattern:
-
-`In 2025, 20.2% of firms reported using AI, up from 14.2% in 2024 and 8.7% in 2023.`
-
-This is very OECD-like because it gives:
-
-- the current level
-- the comparison
-- the time dimension
-
-## 20.2 Data visuals are introduced by function
-
-On OECD pages, charts are usually not presented as decorative objects. They are introduced through:
-
-- a topic-led subtitle
-- the unit of measurement
-- the time reference
-- the source
-
-Typical supporting lines include:
-
-- `Measure: % of individuals`
-- `Time reference: 2025 or latest available data`
-- `Source: OECD ICT Access and Usage Database, January 2026`
-
-### Practical rule
-
-If you reproduce OECD-style chart language, always include:
-
-- what the visual shows
-- what the numbers represent
-- where the data come from
-
-## 20.3 Source lines matter
-
-Source lines are central to OECD credibility. They often appear as:
-
-- `Source: OECD ICT Access and Usage Database, January 2026`
-- `Source: OECD.AI calculations using data from SimilarWeb`
-- `Source: Adapted from...`
-
-What this shows:
-
-- the OECD is explicit about provenance
-- the OECD distinguishes between its own database, calculations, and third-party material
-- the OECD signals whether something is adapted rather than original
-
-### Practical rule
-
-When citing data in OECD style:
-
-- name the dataset or database
-- name the producing institution if relevant
-- include the reference date or update period when available
-- distinguish clearly between `OECD data`, `OECD calculations`, and `third-party source`
-
-## 20.4 Graph logic is usually concise and explanatory
-
-OECD graph support text usually does not interpret everything at once. It tends to:
-
-- identify the pattern
-- note the main contrast
-- move back into prose for implication
-
-This keeps the visual clean and the interpretation controlled.
-
-## 20.5 The OECD often combines quantitative and qualitative evidence
-
-In the materials you collected, OECD-style logic often mixes:
-
-- percentages and counts
-- trend comparisons
-- summary interpretation
-- governance or policy framing
-
-This is important for your manual because OECD tone is not purely statistical. It is **statistical plus interpretive**.
-
----
-
-## 21. How OECD structures citations, references and attribution
-
-The OECD's citation logic varies by format, but several habits are stable.
-
-## 21.1 The OECD signals provenance early
-
-It often identifies:
-
-- the source page
-- the publication type
-- the date
-- the dataset or institutional owner
-
-This creates traceability.
-
-## 21.2 The OECD distinguishes content ownership from input ownership
-
-You can see this especially in AI and technical materials:
-
-- OECD documents may rely on third-party data
-- OECD calculations may be based on external sources
-- blog posts may cite external frameworks or reports
-- disclaimers may clarify that views do not necessarily represent all member countries
-
-### Practical rule
-
-If you want to imitate OECD reference discipline:
-
-- identify when a claim comes from OECD analysis
-- identify when it comes from another institution
-- identify when the OECD is summarising, adapting, or calculating from an external source
-
-## 21.3 OECD usually avoids overloaded academic citation style in web prose
-
-On public-facing web content, OECD often prefers:
-
-- named sources
-- linked titles
-- source lines
-- short attribution formulas
-
-Instead of:
-
-- dense academic footnoting throughout the prose
-
-This makes the text more usable for a broader audience.
-
-## 21.4 Disclaimers are part of the institutional voice
-
-In some OECD materials, especially AI-related or partnership-related content, disclaimers perform an important tonal role. They signal:
-
-- institutional responsibility
-- limits of ownership
-- limits of verification
-- neutrality regarding author views
-
-This is part of OECD's logic of trust.
-
----
-
-## 22. Section patterns by format
-
-## 22.1 Topic pages
-
-From the topic pages you collected, OECD often uses:
-
-- title
-- short description
-- `Key links`
-- `Available in`
-- `Share`
-- `Key messages`
-- `Context`
-- data visuals embedded inside the context
-
-### Logic
-
-The logic is:
-
-- define the topic
-- state why it matters now
-- give a small set of headline messages
-- support them with context and evidence
-
-## 22.2 Announcements
-
-From the announcements you collected, OECD often uses:
-
-- headline
-- date
-- language/share metadata
-- short summary
-- main findings grouped by audience or theme
-- data visual mentions
-- source or contact follow-up
-
-### Logic
-
-The logic is:
-
-- lead with the news
-- explain the main evidence
-- segment the findings
-- point the reader to the source or technical contact
-
-## 22.3 Institutional pages
-
-From `How we work` and `Directorate for Communications`, OECD often uses:
-
-- mission framing
-- section headers for functions
-- paragraphs that move from what the institution does to why it matters
-- network, contact or follow-up sections
-
-### Logic
-
-The logic is:
-
-- define mission
-- describe functions
-- connect functions to impact
-- provide pathways for further engagement
-
-## 22.4 Newsroom pages
-
-From the newsroom references, OECD often uses:
-
-- overview
-- featured items
-- latest items by content type
-- media registration or access
-- contact and related information
-
-### Logic
-
-The newsroom is not written as one argument. It is a **service architecture**:
-
-- orient users
-- surface priority content
-- separate outputs by function
-- support professional media use
-
-## 22.5 Blog pages
-
-From blogs and The AI Wonk, OECD blog-style writing often uses:
-
-- a sharper opening frame
-- a policy or governance tension
-- examples or comparative evidence
-- implications for trust, standards, policy or implementation
-
-### Logic
-
-The blog logic is:
-
-- make the issue more readable
-- keep analytical seriousness
-- narrow the focus to one usable argument
-
----
-
-## 23. OECD reasoning patterns you should copy
-
-Behind the wording, OECD texts often think in repeatable analytical patterns.
-
-## 23.1 Trend + qualification
-
-Pattern:
-
-- a trend is identified
-- its limits or unevenness are stated
-- a policy implication follows
-
-Formula:
-
-`X is increasing across the OECD. However, this pattern remains uneven across countries, sectors or groups, highlighting the importance of Y.`
-
-## 23.2 Opportunity + risk
-
-Pattern:
-
-- acknowledge the positive potential
-- identify governance or implementation risks
-- move to institutional response
-
-Formula:
-
-`X can help unlock important benefits. At the same time, it raises challenges related to Y and Z, which require careful governance and co-operation.`
-
-## 23.3 Comparison + interpretation
-
-Pattern:
-
-- show differences between groups, countries, sectors or time periods
-- interpret what those differences mean
-
-Formula:
-
-`Outcomes vary significantly across A and B. This suggests that C plays an important role in shaping results.`
-
-## 23.4 Evidence + public consequence
-
-Pattern:
-
-- present evidence
-- explain why citizens, workers, governments or institutions should care
-
-Formula:
-
-`The data show X. This matters because it affects Y and has implications for Z.`
-
-## 23.5 Institutional role + value
-
-Pattern:
-
-- explain what the OECD does
-- explain why that function matters
-
-Formula:
-
-`By providing X, the OECD helps Y to Z.`
-
-This is one of the most recognisable OECD sentence logics.
-
----
-
-## 24. If you want the document itself to look OECD-like
-
-For your own OECD-style documents, organise them with:
-
-- a clear title
-- a metadata block near the top
-- short summary or framing paragraph
-- descriptive section headers
-- data sections with named source lines
-- concluding implication or next-step section
-
-### Minimal OECD-like structure for a short note
-
-1. Title
-2. Date / source / audience if relevant
-3. Summary
-4. Main findings
-5. Context or evidence
-6. Implications
-7. Recommended next steps
-8. Source / methodology note if needed
-
-### Minimal OECD-like structure for a topic page or reference page
-
-1. Title
-2. Source
-3. Classification or content type
-4. Summary or description
-5. Key messages
-6. Context
-7. Data visual notes
-8. Why it matters / why it belongs here
-
----
-
-## 25. Final synthesis
-
-The OECD voice is not just a tone. It is a **reasoning system** and an **information-display system**.
-
-To reproduce it well, you need to imitate all of the following together:
-
-- the calm, evidence-based wording
-- the structured sectioning
-- the metadata-first organisation
-- the disciplined use of source lines
-- the cautious interpretation of data
-- the compare-qualify-explain logic
-- the movement from evidence to policy meaning
-- the final return to public value, trust, implementation or better policy outcomes
-
-If your text sounds serious but is badly structured, it will not feel OECD.
-If it is well structured but hype-driven, it will not feel OECD.
-If it uses data but without context, source and implication, it will not feel OECD.
-
-It feels OECD when **tone, structure, evidence, attribution and policy logic all align**.
+## 17. Bottom line
+
+To sound like the OECD in PDF-style writing:
+
+- write for policy use
+- structure the logic before polishing the language
+- lead with evidence
+- keep the tone measured
+- use clear sectioning
+- connect findings to governance, implementation and public value
+- prefer analytical clarity over stylistic display
+
+The OECD voice is not mainly a matter of vocabulary. It is a matter of **disciplined reasoning, controlled tone, structured evidence and policy relevance**.

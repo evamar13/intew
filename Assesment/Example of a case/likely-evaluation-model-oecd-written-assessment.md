@@ -36,7 +36,7 @@ The earlier hypothetical question was directionally correct, but still too broad
 
 It would likely look more like this:
 
-> **You have joined the Communications Impact Unit in the Directorate for Communications. Four weeks after the publication of a high-profile OECD report and statistical release, the Head of Unit asks you to prepare a short internal note for management based on the performance data provided in the annex. Your note should identify the main findings, distinguish meaningful signals from noise, explain any anomalies, assess visibility and influence across media, OECD digital assets, policy and academic uptake, and emerging AI-mediated environments, and recommend how COM should adjust its monitoring and reporting approach for the next phase.**
+> **You have joined the Communications Impact Unit in the Directorate for Communications. Four weeks after the publication of a high-profile OECD report and statistical release linked to a priority policy theme, the Head of Unit asks you to prepare a short internal note for management based on the performance data provided in the annex. Your note should identify the main findings, distinguish meaningful signals from noise, explain any anomalies, assess visibility and influence across media, OECD digital assets, policy and academic uptake, and emerging AI-mediated environments, and recommend how COM should adjust its monitoring, dashboard reporting and media-briefing approach for the next phase.**
 
 This version is more realistic because it is:
 
@@ -70,6 +70,7 @@ A question like the one above does not only test whether you understand AI. It t
 - connect media, publication, policy, and academic evidence
 - protect institutional credibility through caveats and data quality controls
 - produce a note that a manager could realistically use
+- show how findings would feed into a dashboard, a short briefing, or a monitoring product used by COM
 
 ## What The Analytical Side Would Likely Test Specifically
 
@@ -80,6 +81,7 @@ If OECD includes tables or short annexes, the assessment is likely testing wheth
 - distinguish launch visibility from sustained influence
 - interpret rising policy or academic mentions differently from falling pageviews
 - explain why AI referrals may remain low even if AI-mediated influence is increasing
+- recognise that caching, summarisation, or zero-click answer formats may weaken direct attribution
 - avoid overclaiming from partial or imperfect attribution
 - turn raw numbers into a reporting recommendation or management action
 
@@ -189,6 +191,7 @@ To stay aligned with `raw-offer.md`, the example case should also reflect that t
 - media monitoring and social listening inputs
 - data preparation, interpretation, and visualisation
 - the difference between bot traffic, crawler activity, referrals, and human engagement
+- the possible effect of LLM bot access, cached retrieval, and non-click answer consumption on standard analytics
 - experimentation with emerging AI analytics and measurement methods
 
 ### Additional correction from the screenshots
@@ -248,6 +251,8 @@ Compared with the earlier version, a better hypothetical case for this role shou
 - high traffic but low quality engagement
 - rising crawler activity with unclear human value
 - low direct AI referrals but growing evidence of AI-mediated visibility
+- rising bot or crawler access that may improve discoverability while weakening the meaning of top-line traffic
+- evidence of caching or answer-layer intermediation that complicates attribution
 - declining media volume but improving policy uptake
 - strong launch attention but uneven asset performance
 - attribution gaps that require proxy thinking rather than precise claims

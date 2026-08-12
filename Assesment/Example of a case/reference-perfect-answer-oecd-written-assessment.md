@@ -15,7 +15,7 @@ The aim is to show what a **high-scoring written answer** could look like when t
 
 ## Refined Hypothetical Prompt
 
-**You have joined the Communications Impact Unit in the Directorate for Communications. Four weeks ago, the OECD published a flagship report with a statistical release, press outreach, website assets and social distribution. The Head of Unit asks you to prepare a short internal note for management based on the annexed data.**
+**You have joined the Communications Impact Unit in the Directorate for Communications. Four weeks ago, the OECD published a flagship report with a statistical release, press outreach, website assets and social distribution linked to a priority policy theme. The Head of Unit asks you to prepare a short internal note for management based on the annexed data.**
 
 **Your note should:**
 
@@ -23,7 +23,7 @@ The aim is to show what a **high-scoring written answer** could look like when t
 - distinguish meaningful signals from noise
 - explain any anomalies or data-quality concerns
 - assess visibility and influence across digital, media, policy and AI-mediated environments
-- recommend how COM should adjust its monitoring and reporting approach over the next two months
+- recommend how COM should adjust its monitoring, dashboard reporting and media-briefing approach over the next two months
 
 ## Annex: simplified data pack
 
@@ -62,6 +62,7 @@ The aim is to show what a **high-scoring written answer** could look like when t
 | Main automated user agents identified | Search engine crawlers, known AI crawlers, some unattributed scraping activity |
 | Geographic distribution of suspicious traffic | Disproportionately concentrated in a small set of locations not aligned with normal OECD audience profile |
 | AI-related referrals | Mostly to executive summary and methodology pages, not to the interactive chart page |
+| Caching and answer-layer effects | In several manual checks, AI systems reproduced key OECD findings without generating a visible referral or link back to the original page |
 
 ### Table 4. Sampled qualitative findings from AI output checks
 
@@ -72,105 +73,127 @@ The aim is to show what a **high-scoring written answer** could look like when t
 | Statistical caveats preserved | Often partially lost |
 | Summary quality | Generally acceptable at headline level, weaker on methodology and nuance |
 
+### Table 5. Reporting and briefing constraints
+
+| Item | Finding |
+| --- | --- |
+| Current management dashboard | Focuses on total traffic, downloads, media mentions and social reach; AI-related indicators are not yet integrated |
+| Data quality issue | Bot and crawler traffic are not consistently separated from validated human traffic in the top-line dashboard view |
+| Upcoming need | A short media brief is required next week for a senior OECD mission related to the same policy theme |
+| Analyst request | Management wants two or three indicators that could be piloted in Power BI without overstating precision |
+
 ---
 
 ## Model Answer
 
 ### Internal note: first four weeks of performance for flagship OECD release
 
-The data suggest that the release performed strongly at launch and continues to show meaningful uptake, but the pattern is more nuanced than a simple traffic story. The headline finding is that attention is declining in the expected way after launch, while signs of deeper use and institutional uptake are strengthening. At the same time, the data also show two analytical cautions: first, part of the digital volume is clearly inflated by automated activity, especially in Week 2; second, AI-mediated visibility appears to be growing, but the attribution and quality of representation remain incomplete.
+#### Summary
 
-### 1. Main findings
+The release achieved strong initial reach, but the more policy-relevant result is that qualified use and institutional uptake are proving more resilient than raw traffic. The data also point to three cautions that should shape interpretation. First, a material share of volume, especially in Week 2, is automated and should not be read as audience demand. Second, the highest-value assets are not the highest-volume ones. Third, AI-mediated visibility appears to be increasing, but direct referrals alone are likely to understate total influence because generative interfaces can intermediate access to source content without returning a measurable click, and they do not always preserve attribution or nuance consistently (Kuai et al., 2026; Couraceiro and Pais, 2026; Lucchi, 2026).
 
-The first finding is that **launch visibility was high, but not all of it reflects equivalent value**. Total pageviews fell from 84,000 in Week 1 to 43,800 in Week 4, which is normal after an initial communications push. However, the sharper point is that Week 2 contains a clear distortion: automated pageviews rose to 25,500, more than double Week 1. Because that spike was concentrated on the interactive chart page and image assets, it should not be interpreted as a genuine increase in audience demand.
+This pattern is consistent with a broader shift in the information environment. Research on generative search, zero-click consumption and document-grounded question answering suggests that source material is increasingly being retrieved, synthesised and reformulated before users encounter it, which means that visibility, traffic and faithful representation can no longer be assumed to move together (Faridi et al., 2026; Sharma et al., 2026). For a public-interest institution, that implies that impact monitoring should combine traditional communications indicators with a more explicit assessment of how OECD content is surfaced, attributed and simplified in AI-mediated environments (OECD, 2021; OECD, 2024a; OECD, 2025a).
 
-The second finding is that **high-value use remained more resilient than raw traffic**. Downloads declined more slowly than pageviews, from 12,400 in Week 1 to 7,200 in Week 4, and engaged time on the summary page actually improved by Week 4. This suggests that while broad curiosity faded after launch, the remaining audience was more qualified and more willing to spend time with the substance of the content.
+### 1. Main findings from the first four weeks
 
-The third finding is that **the strongest-quality assets were not the most visible ones**. The executive summary page and methodology/statistical notes page show the highest human share and strongest engagement. The methodology page in particular has relatively low reach but very strong depth of use, with 31% click-through or download behavior and more than four minutes of average engagement. That is a useful signal for OECD because it suggests specialist and professional audiences are seeking evidence and methodological grounding, not only headline messages.
+The first finding is that launch visibility was high, but not all of that visibility reflects equivalent value. Total pageviews fall from 84 000 in Week 1 to 43 800 in Week 4, which is a normal post-launch pattern. However, Week 2 is clearly distorted by automation: automated pageviews rise to 25 500 and are concentrated on the interactive chart page and image assets. That spike should therefore be treated as machine access rather than as evidence of sustained audience interest.
 
-The fourth finding is that **influence indicators are improving even as media attention declines**. Media mentions drop from 318 to 72 over the period, but policy references rise from 3 to 19 and academic mentions from 1 to 11. That pattern is consistent with the life cycle of a serious OECD output: broad launch visibility comes first, while policy and expert uptake develops more slowly. This is strategically important because for OECD, long-term value is better reflected in policy and expert use than in launch-week traffic alone.
+The second finding is that higher-value use holds up better than top-line traffic. Downloads decline more slowly than pageviews, from 12 400 to 7 200, while engaged time on the executive summary page improves by Week 4. This suggests that broad curiosity fades after launch, but the remaining audience is more likely to be purposeful and willing to spend time with the substance of the output.
 
-The fifth finding is that **AI-mediated visibility is emerging but still imperfectly measurable**. Identifiable referrals from known AI surfaces rise from 420 to 760 over the four weeks. In absolute terms, this remains a small traffic source, but it is moving upward while overall traffic declines. That makes it strategically significant. At the same time, manual checks show only 7 to 8 correct attributions out of 12, while material simplification or caveat loss appears in 2 to 3 cases each week. This means AI-mediated presence is real, but the quality of representation is uneven.
+The third finding is that the strongest assets in quality terms are the executive summary and the methodology page. The executive summary combines an 84% human share with strong engagement. The methodology page has lower reach, but it records the highest engagement depth and the strongest download or click-through behaviour. For OECD, that is an important result because it indicates demand for interpretive clarity and methodological grounding, not only for headline messages. It also suggests that pages containing caveats, definitions and statistical notes may play a disproportionate role in trustworthy reuse, including in retrieval-based systems that depend on authoritative source material and robust citation behaviour (Faridi et al., 2026; Hwang et al., 2025).
 
-### 2. What is signal and what is noise
+The fourth finding is that influence indicators are improving even as media volume declines. Media mentions fall from 318 to 72 across the four weeks, but mentions in official policy or institutional documents rise from 3 to 19 and academic mentions from 1 to 11. That is a more meaningful medium-term signal for OECD than raw launch traffic. It suggests that the release is moving from broad publicity into expert and institutional use, which is more closely aligned with the Organisation’s policy mission.
 
-The clearest noise in the dataset is the Week 2 traffic spike driven by automation. If management looked only at total pageviews, it could wrongly conclude that interest remained broadly stable after launch. The human pageview series gives a more accurate picture: 70,000, then 46,000, then 39,000, then 35,000. This still shows a healthy post-launch trajectory, but a less flattering and more realistic one.
+The fifth finding is that AI-mediated visibility is emerging from a low base but is strategically significant. Identifiable referrals from known AI surfaces rise from 420 to 760 while overall traffic declines. This remains a small source of direct visits, but the direction matters. Research on generative interfaces indicates that direct referral traffic captures only part of the effect because users may consume summarised answers within the interface itself, or use the original source indirectly through retrieval and synthesis without clicking through to it (Kuai et al., 2026; Couraceiro and Pais, 2026; Lucchi, 2026).
 
-By contrast, several indicators appear to be stronger signals of meaningful impact:
+The sixth finding is that the current reporting setup is no longer sufficient. Table 5 indicates that the management dashboard still privileges total traffic and other conventional top-line indicators, while AI-related signals remain outside the core reporting view. In a role that explicitly combines traditional communications metrics with emerging AI-era indicators, that gap is itself an operational finding rather than a secondary observation.
 
-- downloads, because they remain comparatively robust
-- engaged time on the summary and methodology pages, because these suggest substantive use
-- policy and academic mentions, because they indicate downstream uptake
-- AI-surface referrals to the summary and methodology pages, because these point to the kinds of pages most likely to support evidence-based retrieval
+### 2. Distinguishing signal from noise
 
-The interactive chart page should be treated more cautiously. It attracted substantial volume but only 41% estimated human share, very low engagement time, and weak click-through. That profile suggests it is useful for visibility and machine retrieval, but not necessarily a strong indicator of comprehension or influence.
+The clearest noise in the dataset is the Week 2 spike in total traffic. If management relied on total pageviews alone, it could conclude that attention remained broadly stable after launch. The human pageview series gives a more credible picture: 70 000 in Week 1, 46 000 in Week 2, 39 000 in Week 3 and 35 000 in Week 4. That still reflects solid performance, but it is a different story from the one implied by top-line traffic.
 
-### 3. AI-mediated interpretation
+By contrast, several indicators are stronger signals of meaningful impact. Downloads remain comparatively robust. Engaged time on the executive summary and methodology pages suggests substantive use. Policy and academic mentions indicate downstream uptake. AI-related referrals to the executive summary and methodology pages are also more informative than referrals to the interactive chart page because they point to the pages most likely to support evidence-based retrieval and more accurate reuse.
 
-The AI-related evidence should be interpreted as **directionally important but methodologically incomplete**. The rise in identifiable referrals from known AI surfaces suggests that OECD content is increasingly being reached via AI-mediated discovery paths. However, this almost certainly understates total influence because many AI systems may use OECD content without generating an attributable click.
+The interactive chart page should therefore be interpreted cautiously. It attracts substantial volume, but only 41% of that traffic is estimated to be human, engagement is weak, and click-through is low. It appears useful for visibility and machine access, but it is not a strong indicator of comprehension or influence on its own.
 
-The qualitative checks help compensate for that limitation. They show three things:
+### 3. Interpreting AI-mediated visibility
 
-- OECD is often visible enough to be referenced by name
-- attribution is inconsistent
-- nuance and statistical caveats are vulnerable to simplification
+The AI-related evidence should be treated as directionally important but methodologically incomplete. The increase in identifiable referrals suggests that OECD material is being reached more often through AI-mediated discovery pathways. However, the literature indicates that such pathways frequently reshape the user journey. Generative systems can satisfy part of the user’s information need within the interface itself, compressing the incentive to visit the underlying source and reducing the visibility of source plurality and caveats (Kuai et al., 2026; Couraceiro and Pais, 2026; Lucchi, 2026).
 
-This matters for COM because the issue is not only discoverability. It is also whether trusted OECD evidence is represented accurately when it is mediated through AI systems.
+The observation on caching and answer-layer effects reinforces this point. If AI systems reproduce OECD findings from cached or previously retrieved material without generating a visible return path, standard traffic analytics will under-record influence. In practical terms, this means that direct referral series should be treated as partial indicators of presence, not as complete indicators of use.
+
+The manual output checks help to compensate for that measurement gap. They show that OECD is often cited by name, but not consistently; that source links are uneven across interfaces; and that statistical caveats are more fragile than headline findings. This is plausible in light of current retrieval and answer-generation research. Studies of document-grounded question answering and retrieval-augmented generation show that outputs often depend on evidence selection, source reliability and synthesis choices rather than on straightforward quotation, which makes simplification and caveat loss more likely, especially for methodological material (Sharma et al., 2026; Hwang et al., 2025; Lee et al., 2025).
+
+For COM, the issue is therefore not only whether OECD content is discoverable. It is also whether OECD evidence remains attributable, contextualised and faithfully represented when AI systems mediate access to it. That concern is consistent with OECD work on trustworthy AI, which places particular weight on transparency, accountability, traceability and context-sensitive risk management (OECD, 2024a; OECD, 2024b; OECD, 2026).
 
 ### 4. Risks and data-quality concerns
 
 There are four main risks.
 
-First, there is a **measurement risk**: over-reliance on total traffic would overstate performance because automation materially distorts the series.
+First, there is a measurement risk. If validated human indicators are not separated from automated access, the release will appear to have generated more sustained public demand than the evidence supports.
 
-Second, there is an **interpretation risk**: low direct AI referrals could be misread as low AI relevance, when in fact AI influence may occur without click-through.
+Second, there is an interpretation risk. Low direct AI referrals could be read as weak AI relevance, when in reality the influence of AI systems may be partly invisible in standard web analytics because source use does not always produce a trackable click.
 
-Third, there is a **reputational risk**: sampled AI outputs sometimes lose caveats or oversimplify findings. For OECD, this is significant because methodological precision is part of the Organisation's credibility.
+Third, there is a reputational risk. The sampled AI outputs show that OECD findings can be simplified in ways that reduce methodological precision. For an organisation whose authority depends on careful use of definitions, caveats and comparability, that is not a marginal issue.
 
-Fourth, there is a **reporting risk**: if exploratory AI indicators are mixed into standard management reporting without caveats, they may be treated as more precise than they really are.
+Fourth, there is a reporting risk. Exploratory AI indicators are useful, but if they are integrated into core management reporting without explicit caveats, they may be treated as more precise and more mature than they are. OECD work on AI governance and reporting frameworks suggests the opposite approach: comparable structure should be combined with transparency about scope, limitations and uncertainty (OECD, 2025a; OECD, 2025b; OECD, 2026).
 
-### 5. Recommended next steps for monitoring and reporting
+Fifth, there is an operational risk. If dashboard logic, media briefs and senior management notes continue to rely on a metric structure designed mainly for pre-GenAI traffic and media cycles, COM may react too slowly to changes in discoverability, source attribution and answer-layer intermediation.
 
-For the next two months, I would recommend that COM adjust its monitoring in five ways.
+### 5. Recommended adjustments for the next two months
 
-First, **separate validated human-performance indicators from contextual machine-access indicators**. Management reporting should foreground estimated human pageviews, downloads, engagement, media quality, and policy or academic uptake. Automated traffic should still be shown, but as a contextual series, not as evidence of audience value.
+COM should adjust its monitoring and reporting approach in five ways.
 
-Second, **elevate asset-level reporting**. The data show that the executive summary and methodology pages are disproportionately valuable. Future reporting should not centre only on the main landing page. It should compare which asset types drive visibility, substantive use, and trustworthy reuse.
+First, management reporting should separate validated human-performance indicators from contextual machine-access indicators. Estimated human pageviews, downloads, engagement, media quality, policy references and academic mentions should remain the core performance series. Automated traffic should still be tracked, but as contextual intelligence rather than as evidence of audience value.
 
-Third, **keep AI-mediated reporting as a dedicated exploratory section**. I would track:
+Second, COM should strengthen asset-level reporting. The data show that the executive summary and methodology pages are disproportionately important. Reporting should therefore compare asset types by reach, human share, engagement depth, download behaviour and evidence of trustworthy reuse, rather than relying primarily on the main landing page.
 
-- identifiable AI referrals
-- access patterns on pages likely to be used in retrieval
-- periodic manual attribution and caveat-preservation checks
-- any recurring misrepresentation patterns
+Third, COM should maintain a dedicated AI-mediated section in the reporting dashboard. That section should include identifiable AI referrals, access patterns on likely retrieval assets, periodic manual checks of attribution and caveat preservation, and a log of recurring misrepresentation patterns. This would be consistent with a structured but still exploratory approach to emerging AI-era indicators (OECD, 2025a; OECD, 2026).
 
-Fourth, **add a quality lens to media and AI monitoring**. The decline in accurate media framing from 86% to 77% suggests that volume alone is not enough. The same logic applies to AI outputs. Visibility should always be paired with representation quality.
+Fourth, COM should define a small pilot indicator set for Power BI rather than attempting a full AI-performance index immediately. A credible first version would include: validated human traffic to priority assets; identifiable AI-surface referrals; frequency of OECD attribution in sampled AI outputs; and a simple caveat-preservation rate from manual checks. This would make the dashboard more decision-useful without giving a false sense of precision.
 
-Fifth, **reframe management interpretation around the life cycle of OECD impact**. The next reporting note should explicitly say that launch attention is receding, but policy and academic uptake are increasing. That is not a weakness. It is a sign that the release is moving from publicity into expert and institutional use.
+Fifth, COM should pair visibility metrics with representation-quality metrics. The decline in accurate media coverage from 86% to 77% shows that volume alone is not enough. The same principle applies to AI outputs. A trusted organisation should track whether its content is being represented accurately, not only whether it is being surfaced.
+
+Sixth, COM should explicitly adapt its short briefing products. For next week’s media brief on the senior mission, I would avoid leading with total traffic and instead foreground three points: qualified engagement remains comparatively strong; policy and academic uptake are improving; and AI-mediated visibility is increasing, but attribution remains incomplete and should be caveated.
+
+Seventh, the next management note should explicitly frame impact as a life-cycle story. Launch attention is receding, but qualified engagement and institutional uptake are strengthening. That should be presented as a transition from publicity to policy and expert use, not as a deterioration in performance.
 
 ### 6. Proposed management message
 
-If I had to summarise the performance in one sentence for management, I would say:
-
-**The release delivered strong launch visibility, but its more important story is that qualified use and institutional uptake are holding up better than raw traffic, while AI-mediated discovery is growing but still presents attribution and accuracy challenges.**
+The release delivered strong launch visibility, but its more important second-phase story is that substantive use and institutional uptake are holding up better than raw traffic, while AI-mediated discovery is growing in ways that increase the need for disciplined attribution, quality checks and caveated reporting.
 
 ### Conclusion
 
-Overall, the release appears to be performing well, but the data need disciplined interpretation. Raw traffic alone would overstate sustained audience value because of automated activity, particularly in Week 2. A more credible reading is that broad attention is normalising, while higher-value signals such as downloads, deep engagement, policy references, academic mentions, and AI-surface referrals are becoming relatively more important.
+Overall, the release is performing well, but the dataset requires careful interpretation. Raw traffic overstates sustained audience value because automation materially distorts the series, especially in Week 2. A more credible reading is that broad attention is normalising, while stronger indicators of impact, including downloads, deep engagement, policy references, academic mentions and AI-related access to high-value pages, are becoming relatively more important.
 
-COM should therefore shift from launch-volume reporting to a second-phase framework that emphasises human engagement, asset quality, downstream uptake, and carefully caveated AI-era indicators. That approach would be both analytically stronger and better aligned with OECD's standards of evidence, trust, and communications impact.
+COM should therefore move from a launch-volume narrative to a second-phase framework centred on human engagement, asset quality, downstream uptake and carefully qualified AI-era indicators. That would be analytically stronger and better aligned with OECD practice on trustworthy AI, transparent reporting and evidence-based public communication (OECD, 2021; OECD, 2024b; OECD, 2025a; OECD, 2026).
 
----
+## References used in this model answer
 
-## Why This Is A Stronger Reference Answer
+Couraceiro, P. and Pais, P.C. (2026), "News Sufficiency: How Generative AI Summaries Reduce News Consumption in Zero-Click Searches", *Journalism and Media*, Vol. 7.
 
-This version is stronger than the earlier one because it does not just propose a framework. It demonstrates the kind of reasoning the role is likely to require:
+Faridi, A.R., Masood, F., Keshvi and Yunus, T. (2026), "Retrieval-Augmented Generation for Large Language Models: Evolution, Architectures, Applications, and Challenges (2020-2025)", *Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery*, Vol. 16.
 
-- reading a small mixed-quality dataset
-- identifying the main story in the numbers
-- spotting a bot-driven anomaly
-- distinguishing traffic from value
-- interpreting AI-related signals carefully
-- connecting evidence to reporting and management action
+Hwang, J., Park, J., Park, H., Kim, D., Park, S. and Ok, J. (2025), "Retrieval-Augmented Generation with Estimation of Source Reliability", in *Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing*.
 
-That is much closer to the analytical core of the role than a purely conceptual memo.
+Kuai, J., Brantner, C., Karlsson, M., Van Couvering, E. and Romano, S. (2026), "AI chatbot accountability in the age of algorithmic gatekeeping: Comparing generative search engine political information retrieval across five languages", *new media & society*, Vol. 28, No. 5.
+
+Lee, D., Jo, Y., Park, H. and Lee, M. (2025), "Shifting from Ranking to Set Selection for Retrieval Augmented Generation", in *Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*.
+
+Lucchi, N. (2026), *The Impact of Google AI Summaries and Google AI Overviews on Publishers' Revenue and Media Freedom: Implications for the Information Ecosystem and Democratic Resilience in the European Union*, European Parliament Policy Department for Justice, Civil Liberties and Institutional Affairs.
+
+OECD (2021), "State of implementation of the OECD AI Principles: Insights from national AI policies", *OECD Digital Economy Papers*, No. 311, OECD Publishing, Paris.
+
+OECD (2024a), "Explanatory memorandum on the updated OECD definition of an AI system", *OECD Artificial Intelligence Papers*, No. 8, OECD Publishing, Paris.
+
+OECD (2024b), *Report on the Implementation of the OECD Recommendation on Artificial Intelligence*, OECD, Paris.
+
+OECD (2025a), "Towards a common reporting framework for AI incidents", *OECD Artificial Intelligence Papers*, No. 34, OECD Publishing, Paris.
+
+OECD (2025b), "Governing with Artificial Intelligence: Are governments ready?", *OECD Artificial Intelligence Papers*, No. 20, OECD Publishing, Paris.
+
+OECD/BCG/INSEAD (2025), *The Adoption of Artificial Intelligence in Firms: New Evidence for Policymaking*, OECD Publishing, Paris.
+
+OECD (2026), *OECD Due Diligence Guidance for Responsible AI*, OECD Publishing, Paris.
+
+Sharma, S., Ramu, P., Garimella, A. and Mukherjee, K. (2026), "An Answer is just the Start: Related Insight Generation for Open-Ended Document-Grounded QA", in *Findings of the Association for Computational Linguistics: ACL 2026*.
