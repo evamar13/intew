@@ -716,3 +716,582 @@ If you want to sound OECD, write as if you are:
 - staying clear enough to be used
 
 That combination is the core OECD voice.
+
+---
+
+## 17. OECD information architecture
+
+To sound OECD, it is not enough to choose the right words. The **way information is displayed and organised** is also strongly patterned.
+
+Across the OECD material you collected, pages and documents usually separate content into three layers:
+
+- `metadata and orientation`
+- `substantive content`
+- `navigation, source or follow-up information`
+
+This makes OECD texts feel:
+
+- orderly
+- scannable
+- internationally reusable
+- suitable for both specialists and general readers
+
+## 17.1 The metadata layer usually comes first
+
+Common OECD metadata blocks include:
+
+- `Available in`
+- `Share`
+- `Date`
+- `Published`
+- `Updated`
+- `Source`
+- `Content type`
+- `Read time`
+
+This metadata is not decorative. It does three things:
+
+- orients the reader quickly
+- signals institutional transparency
+- frames the status of the content before the main text begins
+
+### Practical rule
+
+If you are imitating OECD structure, place orientation details near the top of the page or document, not buried later.
+
+## 17.2 The substantive content is then broken into clear sections
+
+OECD pages often move from top-level framing into clearly named sub-sections such as:
+
+- `Who we are`
+- `What we do`
+- `Key messages`
+- `Context`
+- `Main findings`
+- `Networks and programmes`
+- `Get in touch`
+- `Summary`
+- `Methodology`
+
+The OECD almost never relies on a single long undifferentiated block of prose.
+
+## 17.3 The final layer often gives navigation or next steps
+
+Typical closing elements include:
+
+- `Learn more`
+- `Related information`
+- `Contact and social media`
+- `Read case study`
+- `Download`
+- `Browse page`
+
+This creates an institutional feeling of continuity. OECD texts usually sit inside a wider knowledge ecosystem rather than standing alone.
+
+---
+
+## 18. How OECD usually structures discourse
+
+OECD discourse is usually built in a **layered explanatory sequence**, not in a dramatic narrative arc.
+
+The most common internal logic is:
+
+1. establish the subject
+2. define the issue or finding
+3. anchor it in evidence
+4. explain implications
+5. connect it to policy, governance, institutions or stakeholders
+
+This means OECD texts often feel like they are written by people asking:
+
+- What is happening?
+- What do we know?
+- Why does it matter?
+- What should governments, institutions or stakeholders take from this?
+
+## 18.1 The OECD usually moves from fact to implication
+
+A classic OECD move is:
+
+- headline or opening sentence gives the finding
+- next sentences explain scale, variation or trend
+- then the text clarifies the consequence for policy or governance
+
+Example pattern:
+
+`X is increasing across the OECD. However, uptake remains uneven across countries or groups. This highlights the importance of Y.`
+
+That contrastive structure is very common.
+
+## 18.2 The OECD often uses controlled contrast
+
+A large amount of OECD reasoning is built through contrast:
+
+- growth, but uneven growth
+- progress, but remaining gaps
+- high visibility, but limited quality
+- opportunity, but governance challenge
+- adoption, but uneven distribution
+
+This is one of the clearest ways OECD avoids simplistic or exaggerated claims.
+
+### Practical rule
+
+If you want to sound OECD, avoid one-directional triumphalist narratives. Add the balancing clause that shows nuance.
+
+## 18.3 OECD logic is cumulative, not theatrical
+
+OECD writing builds authority by accumulation:
+
+- comparative data
+- institutional context
+- definitions
+- evidence layers
+- carefully framed implications
+
+It does not usually build authority through:
+
+- strong emotional language
+- rhetorical confrontation
+- personality-driven persuasion
+
+---
+
+## 19. How OECD creates narrative
+
+The OECD does create narrative, but it is an **analytical narrative**.
+
+The usual building blocks are:
+
+- a policy problem
+- a measurable pattern
+- a comparison
+- a tension or gap
+- a governance or implementation consequence
+
+## 19.1 Typical OECD narrative sequence
+
+The narrative often looks like this:
+
+1. a topic or challenge is introduced
+2. evidence shows the scale or trend
+3. differences across populations, countries or sectors are identified
+4. this variation is interpreted
+5. the OECD role, policy implication or framework is introduced
+
+This is especially visible in:
+
+- topic pages
+- announcements
+- analytical blogs
+- policy-page summaries
+
+## 19.2 OECD narratives usually privilege systems over individuals
+
+Even when the content concerns people, the narrative usually focuses on:
+
+- institutions
+- policy frameworks
+- labour markets
+- sectors
+- countries
+- stakeholder groups
+
+The unit of meaning is usually systemic, not anecdotal.
+
+### Practical rule
+
+If you write a human example, do not let it replace the structural or policy logic of the text.
+
+## 19.3 OECD narrative often returns to public value
+
+Many OECD texts ultimately reconnect to one of these endpoints:
+
+- better decisions
+- trust
+- resilience
+- fairness
+- well-being
+- implementation
+- co-operation
+- better policies for better lives
+
+That return creates coherence across topics.
+
+---
+
+## 20. How OECD displays and cites data
+
+One of the most important OECD habits is that **data presentation is disciplined and standardised**.
+
+The OECD does not usually throw numbers into the text randomly. It frames them.
+
+## 20.1 Numbers are contextualised
+
+When OECD uses a number, it often also states:
+
+- what the number measures
+- what period it covers
+- what population or geography it refers to
+- how it compares with another number
+
+Example pattern:
+
+`In 2025, 20.2% of firms reported using AI, up from 14.2% in 2024 and 8.7% in 2023.`
+
+This is very OECD-like because it gives:
+
+- the current level
+- the comparison
+- the time dimension
+
+## 20.2 Data visuals are introduced by function
+
+On OECD pages, charts are usually not presented as decorative objects. They are introduced through:
+
+- a topic-led subtitle
+- the unit of measurement
+- the time reference
+- the source
+
+Typical supporting lines include:
+
+- `Measure: % of individuals`
+- `Time reference: 2025 or latest available data`
+- `Source: OECD ICT Access and Usage Database, January 2026`
+
+### Practical rule
+
+If you reproduce OECD-style chart language, always include:
+
+- what the visual shows
+- what the numbers represent
+- where the data come from
+
+## 20.3 Source lines matter
+
+Source lines are central to OECD credibility. They often appear as:
+
+- `Source: OECD ICT Access and Usage Database, January 2026`
+- `Source: OECD.AI calculations using data from SimilarWeb`
+- `Source: Adapted from...`
+
+What this shows:
+
+- the OECD is explicit about provenance
+- the OECD distinguishes between its own database, calculations, and third-party material
+- the OECD signals whether something is adapted rather than original
+
+### Practical rule
+
+When citing data in OECD style:
+
+- name the dataset or database
+- name the producing institution if relevant
+- include the reference date or update period when available
+- distinguish clearly between `OECD data`, `OECD calculations`, and `third-party source`
+
+## 20.4 Graph logic is usually concise and explanatory
+
+OECD graph support text usually does not interpret everything at once. It tends to:
+
+- identify the pattern
+- note the main contrast
+- move back into prose for implication
+
+This keeps the visual clean and the interpretation controlled.
+
+## 20.5 The OECD often combines quantitative and qualitative evidence
+
+In the materials you collected, OECD-style logic often mixes:
+
+- percentages and counts
+- trend comparisons
+- summary interpretation
+- governance or policy framing
+
+This is important for your manual because OECD tone is not purely statistical. It is **statistical plus interpretive**.
+
+---
+
+## 21. How OECD structures citations, references and attribution
+
+The OECD's citation logic varies by format, but several habits are stable.
+
+## 21.1 The OECD signals provenance early
+
+It often identifies:
+
+- the source page
+- the publication type
+- the date
+- the dataset or institutional owner
+
+This creates traceability.
+
+## 21.2 The OECD distinguishes content ownership from input ownership
+
+You can see this especially in AI and technical materials:
+
+- OECD documents may rely on third-party data
+- OECD calculations may be based on external sources
+- blog posts may cite external frameworks or reports
+- disclaimers may clarify that views do not necessarily represent all member countries
+
+### Practical rule
+
+If you want to imitate OECD reference discipline:
+
+- identify when a claim comes from OECD analysis
+- identify when it comes from another institution
+- identify when the OECD is summarising, adapting, or calculating from an external source
+
+## 21.3 OECD usually avoids overloaded academic citation style in web prose
+
+On public-facing web content, OECD often prefers:
+
+- named sources
+- linked titles
+- source lines
+- short attribution formulas
+
+Instead of:
+
+- dense academic footnoting throughout the prose
+
+This makes the text more usable for a broader audience.
+
+## 21.4 Disclaimers are part of the institutional voice
+
+In some OECD materials, especially AI-related or partnership-related content, disclaimers perform an important tonal role. They signal:
+
+- institutional responsibility
+- limits of ownership
+- limits of verification
+- neutrality regarding author views
+
+This is part of OECD's logic of trust.
+
+---
+
+## 22. Section patterns by format
+
+## 22.1 Topic pages
+
+From the topic pages you collected, OECD often uses:
+
+- title
+- short description
+- `Key links`
+- `Available in`
+- `Share`
+- `Key messages`
+- `Context`
+- data visuals embedded inside the context
+
+### Logic
+
+The logic is:
+
+- define the topic
+- state why it matters now
+- give a small set of headline messages
+- support them with context and evidence
+
+## 22.2 Announcements
+
+From the announcements you collected, OECD often uses:
+
+- headline
+- date
+- language/share metadata
+- short summary
+- main findings grouped by audience or theme
+- data visual mentions
+- source or contact follow-up
+
+### Logic
+
+The logic is:
+
+- lead with the news
+- explain the main evidence
+- segment the findings
+- point the reader to the source or technical contact
+
+## 22.3 Institutional pages
+
+From `How we work` and `Directorate for Communications`, OECD often uses:
+
+- mission framing
+- section headers for functions
+- paragraphs that move from what the institution does to why it matters
+- network, contact or follow-up sections
+
+### Logic
+
+The logic is:
+
+- define mission
+- describe functions
+- connect functions to impact
+- provide pathways for further engagement
+
+## 22.4 Newsroom pages
+
+From the newsroom references, OECD often uses:
+
+- overview
+- featured items
+- latest items by content type
+- media registration or access
+- contact and related information
+
+### Logic
+
+The newsroom is not written as one argument. It is a **service architecture**:
+
+- orient users
+- surface priority content
+- separate outputs by function
+- support professional media use
+
+## 22.5 Blog pages
+
+From blogs and The AI Wonk, OECD blog-style writing often uses:
+
+- a sharper opening frame
+- a policy or governance tension
+- examples or comparative evidence
+- implications for trust, standards, policy or implementation
+
+### Logic
+
+The blog logic is:
+
+- make the issue more readable
+- keep analytical seriousness
+- narrow the focus to one usable argument
+
+---
+
+## 23. OECD reasoning patterns you should copy
+
+Behind the wording, OECD texts often think in repeatable analytical patterns.
+
+## 23.1 Trend + qualification
+
+Pattern:
+
+- a trend is identified
+- its limits or unevenness are stated
+- a policy implication follows
+
+Formula:
+
+`X is increasing across the OECD. However, this pattern remains uneven across countries, sectors or groups, highlighting the importance of Y.`
+
+## 23.2 Opportunity + risk
+
+Pattern:
+
+- acknowledge the positive potential
+- identify governance or implementation risks
+- move to institutional response
+
+Formula:
+
+`X can help unlock important benefits. At the same time, it raises challenges related to Y and Z, which require careful governance and co-operation.`
+
+## 23.3 Comparison + interpretation
+
+Pattern:
+
+- show differences between groups, countries, sectors or time periods
+- interpret what those differences mean
+
+Formula:
+
+`Outcomes vary significantly across A and B. This suggests that C plays an important role in shaping results.`
+
+## 23.4 Evidence + public consequence
+
+Pattern:
+
+- present evidence
+- explain why citizens, workers, governments or institutions should care
+
+Formula:
+
+`The data show X. This matters because it affects Y and has implications for Z.`
+
+## 23.5 Institutional role + value
+
+Pattern:
+
+- explain what the OECD does
+- explain why that function matters
+
+Formula:
+
+`By providing X, the OECD helps Y to Z.`
+
+This is one of the most recognisable OECD sentence logics.
+
+---
+
+## 24. If you want the document itself to look OECD-like
+
+For your own OECD-style documents, organise them with:
+
+- a clear title
+- a metadata block near the top
+- short summary or framing paragraph
+- descriptive section headers
+- data sections with named source lines
+- concluding implication or next-step section
+
+### Minimal OECD-like structure for a short note
+
+1. Title
+2. Date / source / audience if relevant
+3. Summary
+4. Main findings
+5. Context or evidence
+6. Implications
+7. Recommended next steps
+8. Source / methodology note if needed
+
+### Minimal OECD-like structure for a topic page or reference page
+
+1. Title
+2. Source
+3. Classification or content type
+4. Summary or description
+5. Key messages
+6. Context
+7. Data visual notes
+8. Why it matters / why it belongs here
+
+---
+
+## 25. Final synthesis
+
+The OECD voice is not just a tone. It is a **reasoning system** and an **information-display system**.
+
+To reproduce it well, you need to imitate all of the following together:
+
+- the calm, evidence-based wording
+- the structured sectioning
+- the metadata-first organisation
+- the disciplined use of source lines
+- the cautious interpretation of data
+- the compare-qualify-explain logic
+- the movement from evidence to policy meaning
+- the final return to public value, trust, implementation or better policy outcomes
+
+If your text sounds serious but is badly structured, it will not feel OECD.
+If it is well structured but hype-driven, it will not feel OECD.
+If it uses data but without context, source and implication, it will not feel OECD.
+
+It feels OECD when **tone, structure, evidence, attribution and policy logic all align**.
