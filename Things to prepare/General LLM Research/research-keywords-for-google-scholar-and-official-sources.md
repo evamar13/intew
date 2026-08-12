@@ -211,53 +211,342 @@ These map directly to the lower-level folders you created.
 | indirect usage signals | `"indirect usage signals"`; `"proxy evidence of use"`; `"trace indicators" digital systems` |
 | incomplete attribution handling | `"incomplete attribution handling"`; `"missing attribution" analytics`; `"measurement under partial observability"` |
 
-## Official sources to search
+## Official and primary sources to search
 
-Use normal Google with `site:` filters for these.
+Use normal Google with `site:` filters for these. The aim here is to diversify beyond papers and add:
 
-### OECD and OECD.AI
+- official statistics
+- regulatory guidance
+- standards and protocols
+- platform first-party documentation
+- primary telemetry and crawl sources
 
-- `site:oecd.org "generative AI"`
-- `site:oecd.org "web traffic" analytics`
+Useful operators to combine with `site:`:
+
+- `filetype:pdf`
+- `dataset`
+- `methodology`
+- `guidance`
+- `consultation`
+- `statistics`
+- `dashboard`
+- `crawler`
+- `bot`
+- `traffic`
+- `search`
+
+## Priority source map
+
+| Source family | Why it is useful | Example searches |
+| --- | --- | --- |
+| OECD and OECD.AI | Your most directly relevant institutional source for AI governance, AI incidents, policy observatories, indicators, official communications logic, and public-sector AI framing. | `site:oecd.org "communications impact"`; `site:oecd.org "AI-mediated"`; `site:oecd.org "generative AI" report`; `site:oecd.ai "AI incidents"`; `site:oecd.ai "policy observatory"`; `site:oecd.ai "AI metrics"` |
+| Eurostat | Best official statistics source for AI use by individuals and enterprises, plus methodological notes on AI in official statistics. | `site:ec.europa.eu/eurostat "artificial intelligence" dataset`; `site:ec.europa.eu/eurostat "generative AI" individuals`; `site:ec.europa.eu/eurostat "AI" enterprises`; `site:ec.europa.eu/eurostat "official statistics" AI` |
+| European Commission | Useful for AI regulation, platform policy, digital strategy, data governance, and implementation documents. | `site:digital-strategy.ec.europa.eu "generative AI"`; `site:ec.europa.eu "AI Act" guidance`; `site:ec.europa.eu "platform transparency" AI`; `site:publications.europa.eu "artificial intelligence" report` |
+| UK official ecosystem | Strong for media-use, online behavior, AI search, AI adoption, and data-protection guidance. | `site:ofcom.org.uk "AI search"`; `site:ofcom.org.uk "answer engines"`; `site:ons.gov.uk "artificial intelligence" businesses`; `site:ons.gov.uk "artificial intelligence" attitudes`; `site:ico.org.uk "generative AI" guidance` |
+| U.S. official ecosystem | Strong for risk, measurement, standards, policy, and technical governance. | `site:nist.gov "AI risk management"`; `site:nist.gov "generative AI profile"`; `site:airc.nist.gov AI measurement`; `site:ntia.gov "artificial intelligence"`; `site:ftc.gov "artificial intelligence"` |
+| Canada official ecosystem | Useful for official statistics, public-sector AI practice, and trustworthy-data framing. | `site:statcan.gc.ca "artificial intelligence"`; `site:statcan.gc.ca "generative artificial intelligence"`; `site:statcan.gc.ca AI statistics` |
+| UNESCO / ITU / UN / Council of Europe | Useful for information integrity, AI ethics, media effects, rights-based governance, and international standards debates. | `site:unesco.org "AI" information integrity`; `site:unesco.org "generative AI" guidance`; `site:itu.int "AI" standards`; `site:coe.int "artificial intelligence" media`; `site:un.org "artificial intelligence" policy brief` |
+| Search platform first-party docs | Best source for how search and answer engines describe crawling, indexing, AI search features, and webmaster controls. | `site:developers.google.com/search "AI features"`; `site:developers.google.com/search crawler`; `site:learn.microsoft.com bing webmaster crawl stats`; `site:indexnow.org documentation`; `site:search.google.com Googlebot` |
+| AI platform first-party docs | Useful for identifying LLM-related bots, crawler behavior, publisher controls, and referral tagging. | `site:developers.openai.com bots`; `site:help.openai.com publishers developers faq`; `site:support.anthropic.com ClaudeBot`; `site:anthropic.com ClaudeBot` |
+| Web standards and protocol bodies | Essential for understanding crawler control, structured data, discoverability infrastructure, and machine-readable exposure. | `site:ietf.org robots protocol`; `site:datatracker.ietf.org RFC 9309`; `site:sitemaps.org sitemap protocol`; `site:schema.org structured data`; `site:w3.org structured data search` |
+| Primary telemetry and crawl sources | Useful for bot trends, AI crawler activity, and large-scale open web access patterns. Not government, but still primary-source infrastructure. | `site:radar.cloudflare.com bots`; `site:radar.cloudflare.com "AI Insights"`; `site:commoncrawl.org crawl data`; `site:commoncrawl.org get started` |
+
+## Official sources by topic
+
+### AI discoverability
+
+#### Official / primary sources
+
+- `site:oecd.ai data discoverability`
+- `site:developers.google.com/search "AI features and your website"`
+- `site:schema.org WebSite`
+- `site:schema.org CreativeWork`
+- `site:sitemaps.org protocol`
+- `site:indexnow.org documentation`
+- `site:datatracker.ietf.org "robots exclusion protocol"`
+
+#### What to look for
+
+- structured data standards
+- sitemap and indexing rules
+- crawler-control mechanisms
+- discoverability infrastructure
+- documentation for how AI/search features treat web content
+
+### LLM referrals
+
+#### Official / primary sources
+
+- `site:help.openai.com "Publishers and Developers FAQ"`
+- `site:developers.openai.com bots`
+- `site:support.anthropic.com ClaudeBot`
+- `site:learn.microsoft.com bing webmaster rank traffic`
+- `site:learn.microsoft.com bing webmaster crawl stats`
+
+#### What to look for
+
+- referral-tagging conventions
+- known AI surfaces that pass trackable traffic
+- bot roles and user-agent definitions
+- crawl versus search versus training distinctions
+
+### bot-driven traffic
+
+#### Official / primary sources
+
+- `site:developers.google.com/search robots`
+- `site:search.google.com Googlebot`
+- `site:developers.openai.com bots`
+- `site:support.anthropic.com ClaudeBot`
+- `site:radar.cloudflare.com bots`
+- `site:radar.cloudflare.com "AI Insights"`
+- `site:datatracker.ietf.org RFC 9309`
+
+#### What to look for
+
+- legitimate crawler identification
+- published user agents and IP guidance
+- crawl-control protocols
+- worldwide and regional bot trends
+- bot vs human traffic framing
+
+### changes in the media landscape
+
+#### Official / primary sources
+
+- `site:ofcom.org.uk "AI search"`
+- `site:ofcom.org.uk "Online Nation"`
+- `site:ofcom.org.uk "user experiences of generative artificial intelligence search"`
+- `site:unesco.org "information integrity" AI`
+- `site:coe.int "artificial intelligence" media freedom`
+- `site:oecd.org "information integrity"`
+
+#### What to look for
+
+- shifts in search and news discovery
+- answer-engine behavior
+- media pluralism concerns
+- source visibility and traffic diversion
+- AI and journalism ecosystem effects
+
+### combining traditional metrics with AI-era indicators
+
+#### Official / primary sources
+
 - `site:oecd.org "communications impact"`
-- `site:oecd.org "digital discoverability"`
-- `site:oecd.ai "LLM"`
-- `site:oecd.ai "AI incidents"`
-- `site:oecd.ai "AI metrics"`
-- `site:oecd.ai "policy observatory"`
+- `site:oecd.org "reporting framework" AI`
+- `site:nist.gov "measurement" AI`
+- `site:airc.nist.gov AI RMF`
+- `site:oecd.ai "capability indicators"`
 
-### European Union / Eurostat / European Commission
+#### What to look for
 
-- `site:ec.europa.eu "generative AI" report`
-- `site:ec.europa.eu/eurostat "artificial intelligence" analytics`
-- `site:digital-strategy.ec.europa.eu "generative AI"`
-- `site:publications.europa.eu "artificial intelligence" discoverability`
+- structured measurement models
+- governance-oriented KPI design
+- risk-aware reporting logic
+- ways to combine experimental indicators with mature ones
 
-### UNESCO / UN / ITU / World Bank
+### content access patterns
 
-- `site:unesco.org "AI" governance report`
-- `site:un.org "artificial intelligence" policy brief`
-- `site:itu.int "AI" standards report`
-- `site:worldbank.org "AI" digital economy report`
+#### Official / primary sources
 
-### NIST / NSF / U.S. official sources
+- `site:help.openai.com publishers developers faq`
+- `site:developers.google.com/search "AI features and your website"`
+- `site:radar.cloudflare.com "AI Insights"`
+- `site:commoncrawl.org overview`
+- `site:commoncrawl.org get started`
 
-- `site:nist.gov AI measurement framework`
-- `site:nist.gov AI risk management`
-- `site:nsf.gov artificial intelligence report`
-- `site:gov.uk "generative AI" report`
+#### What to look for
 
-### Media and information ecosystem sources
+- zero-click or answer-layer intermediation
+- crawl access versus human visits
+- content reuse without direct attribution
+- machine-readable corpus access
 
-- `site:reutersinstitute.politics.ox.ac.uk AI news discovery`
-- `site:pewresearch.org generative AI search behavior`
-- `site:ofcom.org.uk AI media use`
-- `site:niemanlab.org generative AI traffic`
+### dashboard logic
 
-### Search, web, and analytics sources
+#### Official / primary sources
 
-- `site:developers.google.com crawler documentation`
-- `site:search.google.com Googlebot documentation`
+- `site:nist.gov dashboard AI measurement`
+- `site:oecd.org "indicator" AI`
+- `site:oecd.ai data dashboard`
+- `site:ec.europa.eu/eurostat "statistics explained" AI`
+
+#### What to look for
+
+- indicator definitions
+- caveats and metadata
+- comparability logic
+- official dashboard presentation patterns
+
+### data consistency
+
+#### Official / primary sources
+
+- `site:ec.europa.eu/eurostat methodology AI`
+- `site:ons.gov.uk methodology artificial intelligence`
+- `site:statcan.gc.ca methodology artificial intelligence`
+- `site:nist.gov measurement reliability AI`
+
+#### What to look for
+
+- official metadata and methodology notes
+- comparability warnings
+- definitions and breaks in series
+- validation and quality-control language
+
+### generative search visibility
+
+#### Official / primary sources
+
+- `site:developers.google.com/search "AI features and your website"`
+- `site:ofcom.org.uk "answer engines"`
+- `site:ofcom.org.uk "AI search"`
+- `site:indexnow.org faq`
+- `site:help.openai.com publishers developers faq`
+
+#### What to look for
+
+- how answer engines describe source inclusion
+- publisher control mechanisms
+- visibility without click-through
+- guidance on what influences surfacing
+
+### high-priority topic monitoring
+
+#### Official / primary sources
+
+- `site:oecd.org newsroom`
+- `site:oecd.org "media advisory"`
+- `site:oecd.org "press release"`
+- `site:ofcom.org.uk research statistics data AI`
+- `site:ec.europa.eu/eurostat news AI`
+
+#### What to look for
+
+- monitoring cadence
+- how institutions package alerts, briefings, and launches
+- issue salience in official comms outputs
+
+### indicator selection
+
+#### Official / primary sources
+
+- `site:nist.gov AI framework measure`
+- `site:airc.nist.gov AI RMF profile`
+- `site:oecd.ai indicators`
+- `site:oecd.org "capability indicators" AI`
+- `site:ec.europa.eu/eurostat AI metadata`
+
+#### What to look for
+
+- selection criteria
+- definitions
+- intended use
+- known limitations
+
+### media brief creation
+
+#### Official / primary sources
+
+- `site:oecd.org newsroom contact`
+- `site:oecd.org media advisory`
+- `site:oecd.org press launch`
+- `site:oecd.org statistical news release`
+- `site:ofcom.org.uk news AI`
+
+#### What to look for
+
+- official brief structure
+- headline framing
+- use of caveats
+- how data points are condensed for decision-makers and journalists
+
+### proxy indicators for presence in AI systems
+
+#### Official / primary sources
+
+- `site:oecd.org "AI incidents"`
+- `site:oecd.ai incidents`
+- `site:nist.gov "generative AI profile"`
+- `site:help.openai.com publishers developers faq`
+- `site:radar.cloudflare.com "AI Insights"`
+
+#### What to look for
+
+- proxy vs direct measures
+- partial observability
+- risk and attribution framing
+- structured approaches to imperfect evidence
+
+### reporting frameworks
+
+#### Official / primary sources
+
+- `site:oecd.org "common reporting framework for AI incidents"`
+- `site:oecd.org "governing with artificial intelligence"`
+- `site:nist.gov AI RMF profile`
+- `site:ico.org.uk "generative AI" consultation`
+
+#### What to look for
+
+- governance-oriented reporting templates
+- risk classification
+- evidence standards
+- language for uncertainty and limitations
+
+### turning data into actionable insight
+
+#### Official / primary sources
+
+- `site:oecd.org "key messages" AI`
+- `site:oecd.org "executive summary" AI`
+- `site:oecd.org "policy brief" AI`
+- `site:ofcom.org.uk "main points" AI`
+- `site:ons.gov.uk "main points" artificial intelligence`
+
+#### What to look for
+
+- how official institutions move from data to implications
+- executive-summary logic
+- concise briefing language
+- prioritisation of decision-relevant findings
+
+## High-value official sources to prioritise first
+
+If you want the shortest high-value list, start with these:
+
+1. `oecd.org`
+2. `oecd.ai`
+3. `ec.europa.eu/eurostat`
+4. `digital-strategy.ec.europa.eu`
+5. `ofcom.org.uk`
+6. `ons.gov.uk`
+7. `ico.org.uk`
+8. `nist.gov`
+9. `airc.nist.gov`
+10. `developers.google.com/search`
+11. `learn.microsoft.com/en-us/bingwebmaster/`
+12. `developers.openai.com/api/docs/bots`
+13. `help.openai.com`
+14. `support.anthropic.com`
+15. `datatracker.ietf.org`
+16. `sitemaps.org`
+17. `schema.org`
+18. `radar.cloudflare.com`
+19. `commoncrawl.org`
+20. `statcan.gc.ca`
+
+## Optional but useful institutional sources
+
+These are not always "official public authority" sources, but they are still high-value institutional or first-party sources worth checking after the official set above:
+
+- `reutersinstitute.politics.ox.ac.uk`
+- `edmo.eu`
+- `w3.org`
+- `worldbank.org`
+- `itu.int`
+- `unesco.org`
 - `site:bing.com/webmasters crawler documentation`
 - `site:openai.com GPTBot`
 - `site:anthropic.com ClaudeBot`
@@ -290,4 +579,3 @@ If you need a shorter list, start here.
 - `"dashboard" "AI-era indicators"`
 - `"data consistency" digital analytics methodology`
 - `"turning analytics into action" communications`
-
