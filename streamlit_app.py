@@ -118,6 +118,7 @@ def ensure_valid_state(roots: list[Path]) -> None:
     if not roots:
         return
     current_folder = Path(st.session_state.get("current_folder", WORKSPACE_ROOT))
+    st.session_state.setdefault("current_folder", str(current_folder))
     if (
         not current_folder.exists()
         or not current_folder.is_dir()
