@@ -5,7 +5,6 @@ import html
 import re
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable
 
 import streamlit as st
 
@@ -165,10 +164,6 @@ def collect_entries(collection_names: tuple[str, ...]) -> list[DocEntry]:
     return sorted(entries, key=lambda item: item.rel_path.lower())
 
 
-def entry_signature(entries: Iterable[DocEntry]) -> tuple[tuple[str, int, int], ...]:
-    return tuple((entry.path, entry.modified_ns, entry.size) for entry in entries)
-
-
 def read_markdown_or_text(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="ignore")
 
@@ -185,26 +180,15 @@ def extract_pdf_text(path: Path) -> str:
 
 
 @st.cache_data(show_spinner=False)
-def build_search_index(signature: tuple[tuple[str, int, int], ...]) -> list[dict]:
-    index: list[dict] = []
-    for path_str, _, _ in signature:
-        path = Path(path_str)
-        suffix = path.suffix.lower()
-        text = ""
-        if suffix in {".md", ".txt"}:
-            text = read_markdown_or_text(path)
-        elif suffix == ".pdf":
-            text = extract_pdf_text(path)
-        if text.strip():
-            index.append(
-                {
-                    "path": path_str,
-                    "name": path.name,
-                    "relative_path": str(path.relative_to(WORKSPACE_ROOT)),
-                    "text": text,
-                }
-            )
-    return index
+def load_searchable_text(path_str: str, modified_ns: int) -> str:
+    del modified_ns
+    path = Path(path_str)
+    suffix = path.suffix.lower()
+    if suffix in {".md", ".txt"}:
+        return read_markdown_or_text(path)
+    if suffix == ".pdf":
+        return extract_pdf_text(path)
+    return ""
 
 
 def set_current_folder(path: Path) -> None:
@@ -350,35 +334,48 @@ def highlight_terms(text: str, terms: list[str]) -> str:
     return pattern.sub(lambda match: f"<mark>{html.escape(match.group(0))}</mark>", escaped)
 
 
-def search_documents(index: list[dict], query: str, selected_collections: set[str]) -> list[dict]:
+def search_documents(entries: list[DocEntry], query: str, selected_collections: set[str], progress_slot) -> list[dict]:
     terms = [term.strip() for term in re.split(r"\s+", query) if term.strip()]
     if not terms:
         return []
+
+    searchable_entries = [
+        entry for entry in entries
+        if entry.collection in selected_collections and Path(entry.path).suffix.lower() in TEXT_SUFFIXES
+    ]
     results = []
-    for item in index:
-        relative_path = item["relative_path"]
-        collection = Path(relative_path).parts[0]
-        if collection not in selected_collections:
-            continue
-        haystack = f"{item['name']}\n{item['text']}".lower()
+    progress = progress_slot.progress(0, text="Searching documents...")
+    total = len(searchable_entries) or 1
+
+    for idx, entry in enumerate(searchable_entries, start=1):
+        text = load_searchable_text(entry.path, entry.modified_ns)
+        haystack = f"{entry.name}\n{text}".lower()
         if all(term.lower() in haystack for term in terms):
             results.append(
                 {
-                    "path": item["path"],
-                    "relative_path": relative_path,
-                    "snippet": snippet_for_query(item["text"], terms),
+                    "path": entry.path,
+                    "relative_path": entry.rel_path,
+                    "snippet": snippet_for_query(text, terms),
                 }
             )
+        if idx % 10 == 0 or idx == total:
+            progress.progress(idx / total, text=f"Searching documents... {idx}/{total}")
+
+    progress.empty()
     return results
 
 
-def render_search(index: list[dict], selected_collections: list[str]) -> None:
+def render_search(entries: list[DocEntry], selected_collections: list[str]) -> None:
     st.subheader("Search")
-    query = st.text_input("Keywords", placeholder="Search across all indexed documents")
-    if not query.strip():
+    with st.form("workspace-search-form", clear_on_submit=False):
+        query = st.text_input("Keywords", placeholder="Search across all indexed documents")
+        submitted = st.form_submit_button("Search", use_container_width=True)
+
+    if not submitted or not query.strip():
         return
 
-    results = search_documents(index, query, set(selected_collections))
+    progress_slot = st.empty()
+    results = search_documents(entries, query, set(selected_collections), progress_slot)
     st.caption(f"{len(results)} result(s)")
     if not results:
         st.warning("No matches found.")
@@ -489,15 +486,16 @@ def render_browse(collection_roots: list[Path], entries: list[DocEntry]) -> None
                     st.write("")
 
 
-def render_header(entries: list[DocEntry], indexed_docs: int) -> None:
+def render_header(entries: list[DocEntry]) -> None:
     total_pdfs = sum(1 for entry in entries if entry.kind == "pdf")
     total_markdown = sum(1 for entry in entries if entry.kind == "md")
+    total_searchable = sum(1 for entry in entries if Path(entry.path).suffix.lower() in TEXT_SUFFIXES)
     st.markdown('<div class="app-title">Research Workspace</div>', unsafe_allow_html=True)
     st.markdown(
         f"""
         <div class="meta-row">
             <div class="metric-chip">{len(entries)} files</div>
-            <div class="metric-chip">{indexed_docs} searchable docs</div>
+            <div class="metric-chip">{total_searchable} searchable files</div>
             <div class="metric-chip">{total_markdown} markdown</div>
             <div class="metric-chip">{total_pdfs} PDFs</div>
         </div>
@@ -520,14 +518,12 @@ def main() -> None:
     ensure_valid_state(active_roots or collection_roots)
 
     entries = collect_entries(tuple(selected_collections))
-    signature = entry_signature([entry for entry in entries if Path(entry.path).suffix.lower() in TEXT_SUFFIXES])
-    index = build_search_index(signature)
 
     if not entries:
         st.warning("No supported files found in the selected collections.")
         return
 
-    render_header(entries, len(index))
+    render_header(entries)
     mode = st.segmented_control(
         "Mode",
         options=["Browse", "Search"],
@@ -536,7 +532,7 @@ def main() -> None:
     )
     st.session_state["mode"] = mode
     if mode == "Search":
-        render_search(index, selected_collections)
+        render_search(entries, selected_collections)
     else:
         render_browse(active_roots or collection_roots, entries)
 
