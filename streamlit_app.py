@@ -14,12 +14,10 @@ except Exception:  # pragma: no cover
 
 
 WORKSPACE_ROOT = Path(__file__).resolve().parent
-DEFAULT_COLLECTIONS = [
+INCLUDED_ROOT_NAMES = [
     "Research",
     "Things to prepare",
     "Assesment",
-    "OECD comunications to me",
-    "Maki Plarform",
 ]
 TEXT_SUFFIXES = {".md", ".txt", ".pdf"}
 PREVIEWABLE_SUFFIXES = TEXT_SUFFIXES | {".png", ".jpg", ".jpeg", ".gif", ".webp"}
@@ -97,8 +95,8 @@ def app_css() -> None:
     )
 
 
-def existing_collections() -> list[Path]:
-    return [WORKSPACE_ROOT / name for name in DEFAULT_COLLECTIONS if (WORKSPACE_ROOT / name).exists()]
+def included_roots() -> list[Path]:
+    return [WORKSPACE_ROOT / name for name in INCLUDED_ROOT_NAMES if (WORKSPACE_ROOT / name).exists()]
 
 
 def is_visible(relative_path: Path) -> bool:
@@ -110,16 +108,28 @@ def is_supported_file(path: Path) -> bool:
     return suffix in PREVIEWABLE_SUFFIXES or suffix in OTHER_VISIBLE_SUFFIXES
 
 
-def ensure_valid_state(collection_roots: list[Path]) -> None:
-    if not collection_roots:
+def is_inside_included_roots(path: Path, roots: list[Path]) -> bool:
+    if path == WORKSPACE_ROOT:
+        return True
+    return any(root == path or root in path.parents for root in roots)
+
+
+def ensure_valid_state(roots: list[Path]) -> None:
+    if not roots:
         return
-    default_root = collection_roots[0]
-    current_folder = Path(st.session_state.get("current_folder", default_root))
-    if not current_folder.exists() or not current_folder.is_dir():
-        st.session_state["current_folder"] = str(default_root)
+    current_folder = Path(st.session_state.get("current_folder", WORKSPACE_ROOT))
+    if (
+        not current_folder.exists()
+        or not current_folder.is_dir()
+        or not is_inside_included_roots(current_folder, roots)
+    ):
+        st.session_state["current_folder"] = str(WORKSPACE_ROOT)
+
     selected_file = st.session_state.get("selected_file")
-    if selected_file and not Path(selected_file).exists():
-        st.session_state["selected_file"] = None
+    if selected_file:
+        selected_path = Path(selected_file)
+        if not selected_path.exists() or not is_inside_included_roots(selected_path.parent, roots):
+            st.session_state["selected_file"] = None
 
 
 def set_current_folder(path: Path) -> None:
@@ -132,13 +142,17 @@ def set_selected_file(path: Path) -> None:
 
 
 def breadcrumb(path: Path) -> str:
+    if path == WORKSPACE_ROOT:
+        return "Workspace"
     return " / ".join(path.relative_to(WORKSPACE_ROOT).parts)
 
 
 def open_parent(folder: Path) -> Path:
+    if folder == WORKSPACE_ROOT:
+        return folder
     relative = folder.relative_to(WORKSPACE_ROOT)
     if len(relative.parts) <= 1:
-        return folder
+        return WORKSPACE_ROOT
     return WORKSPACE_ROOT.joinpath(*relative.parts[:-1])
 
 
@@ -165,7 +179,14 @@ def load_searchable_text(path: Path) -> str:
     return ""
 
 
-def list_folder(folder: Path) -> tuple[list[Path], list[Path]]:
+def root_folder_entries(roots: list[Path]) -> tuple[list[Path], list[Path]]:
+    return sorted(roots, key=lambda p: p.name.lower()), []
+
+
+def list_folder(folder: Path, roots: list[Path]) -> tuple[list[Path], list[Path]]:
+    if folder == WORKSPACE_ROOT:
+        return root_folder_entries(roots)
+
     dirs: list[Path] = []
     files: list[Path] = []
     for child in sorted(folder.iterdir(), key=lambda p: (not p.is_dir(), p.name.lower())):
@@ -177,6 +198,13 @@ def list_folder(folder: Path) -> tuple[list[Path], list[Path]]:
         elif child.is_file() and is_supported_file(child):
             files.append(child)
     return dirs, files
+
+
+def filter_items(items: list[Path], query: str) -> list[Path]:
+    if not query.strip():
+        return items
+    lowered = query.lower()
+    return [item for item in items if lowered in item.name.lower()]
 
 
 def iter_searchable_files(roots: list[Path]):
@@ -312,27 +340,22 @@ def render_header(current_folder: Path) -> None:
     )
 
 
-def render_sidebar(collection_roots: list[Path]) -> list[str]:
-    st.sidebar.markdown("## Explorer")
-    available = [root.name for root in collection_roots]
-    default = st.session_state.get("active_collections", available)
-    selected = st.sidebar.multiselect("Collections", available, default=default)
-    if not selected:
-        selected = available
-    st.session_state["active_collections"] = selected
-    st.sidebar.divider()
-    st.sidebar.caption("No recursive loading on startup.")
-    return selected
+def render_sidebar() -> None:
+    st.sidebar.markdown("## Scope")
+    st.sidebar.caption("Focused only on the folders useful for the written assessment.")
+    st.sidebar.markdown("- `Research`")
+    st.sidebar.markdown("- `Things to prepare`")
+    st.sidebar.markdown("- `Assesment`")
 
 
-def render_search(active_roots: list[Path], current_folder: Path) -> None:
+def render_search(roots: list[Path], current_folder: Path) -> None:
     st.subheader("Search")
     scope = st.radio(
         "Scope",
-        options=["Current folder", "Selected collections"],
+        options=["Current folder", "All included folders"],
         horizontal=True,
     )
-    search_roots = [current_folder] if scope == "Current folder" else active_roots
+    search_roots = [current_folder] if scope == "Current folder" and current_folder != WORKSPACE_ROOT else roots
 
     with st.form("workspace-search-form", clear_on_submit=False):
         query = st.text_input("Keywords", placeholder="Search only when you submit")
@@ -372,7 +395,7 @@ def render_search(active_roots: list[Path], current_folder: Path) -> None:
             st.caption(result["kind"].upper())
 
 
-def render_browse(collection_roots: list[Path], current_folder: Path) -> None:
+def render_browse(roots: list[Path], current_folder: Path) -> None:
     selected_file = st.session_state.get("selected_file")
 
     st.subheader("Browse")
@@ -382,20 +405,23 @@ def render_browse(collection_roots: list[Path], current_folder: Path) -> None:
         st.markdown(
             """
             <div class="panel-card">
-                <div class="path-label">Current folder</div>
-                <div class="file-title">Browse the workspace structure</div>
+                <div class="path-label">Current area</div>
+                <div class="file-title">Documentation browser</div>
             </div>
             """,
             unsafe_allow_html=True,
         )
         st.write("")
 
-        if len(current_folder.relative_to(WORKSPACE_ROOT).parts) > 1:
+        if current_folder != WORKSPACE_ROOT:
             if st.button("Up one level", use_container_width=True):
                 set_current_folder(open_parent(current_folder))
                 st.rerun()
 
-        dirs, files = list_folder(current_folder)
+        local_filter = st.text_input("Filter current folder", placeholder="Type to narrow the list")
+        dirs, files = list_folder(current_folder, roots)
+        dirs = filter_items(dirs, local_filter)
+        files = filter_items(files, local_filter)
 
         if dirs:
             st.caption("Folders")
@@ -412,8 +438,11 @@ def render_browse(collection_roots: list[Path], current_folder: Path) -> None:
                     st.rerun()
 
         st.divider()
-        st.caption("Collections")
-        for root in collection_roots:
+        st.caption("Jump to")
+        if st.button("Workspace root", key="root-workspace", use_container_width=True):
+            set_current_folder(WORKSPACE_ROOT)
+            st.rerun()
+        for root in roots:
             if st.button(root.name, key=f"root-{root}", use_container_width=True):
                 set_current_folder(root)
                 st.rerun()
@@ -437,14 +466,13 @@ def main() -> None:
     st.set_page_config(page_title="Research Workspace", page_icon="📚", layout="wide")
     app_css()
 
-    collection_roots = existing_collections()
-    if not collection_roots:
+    roots = included_roots()
+    if not roots:
         st.error("No content collections were found in this workspace.")
         return
 
-    selected_collections = render_sidebar(collection_roots)
-    active_roots = [root for root in collection_roots if root.name in selected_collections]
-    ensure_valid_state(active_roots or collection_roots)
+    render_sidebar()
+    ensure_valid_state(roots)
 
     current_folder = Path(st.session_state["current_folder"])
     render_header(current_folder)
@@ -458,9 +486,9 @@ def main() -> None:
     st.session_state["mode"] = mode
 
     if mode == "Search":
-        render_search(active_roots or collection_roots, current_folder)
+        render_search(roots, current_folder)
     else:
-        render_browse(active_roots or collection_roots, current_folder)
+        render_browse(roots, current_folder)
 
 
 if __name__ == "__main__":
